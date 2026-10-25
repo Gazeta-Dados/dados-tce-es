@@ -6,7 +6,7 @@ import unicodedata
 from datetime import datetime
 from playwright.async_api import async_playwright
 
-MODO_EXECUCAO = os.getenv("MODO_EXECUCAO", "mensal")  # 'teste_rapido', 'historico_completo' ou 'mensal'
+MODO_EXECUCAO = os.getenv("MODO_EXECUCAO", "mensal")
 GERAR_PRINTS = os.getenv("GERAR_PRINTS", "false").lower() == "true"
 
 ANO_ATUAL = datetime.now().year
@@ -103,16 +103,16 @@ PAGINAS_ALVO = {
 }
 
 def gerar_slug(nome):
-    sem_acento = ''.join(c for c in unicodedata.normalize('NFD', nome) if unicodedata.category(c) != 'Mn')
-    slug = re.sub(r'[^a-zA-Z0-9\s-]', '', sem_acento).strip().lower()
-    return re.sub(r'[\s]+', '-', slug)
+    sem_acento = "".join(c for c in unicodedata.normalize("NFD", nome) if unicodedata.category(c) != "Mn")
+    slug = re.sub(r"[^a-zA-Z0-9\s-]", "", sem_acento).strip().lower()
+    return re.sub(r"[\s]+", "-", slug)
 
 def converter_numero_br(texto):
     if isinstance(texto, (int, float)):
         return texto
     if not isinstance(texto, str):
         return None
-    limpo = re.sub(r'[R$\s%]', '', texto).replace('.', '').replace(',', '.')
+    limpo = re.sub(r"[R$\s%]", "", texto).replace(".", "").replace(",", ".")
     try:
         return float(limpo)
     except ValueError:
@@ -164,11 +164,9 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     page = await context.new_page()
 
-    # Intercepta TODAS as respostas JSON ou XHR/Fetch vindas do TCE-ES
     async def interceptar_response(response):
         try:
             url_resp = response.url
-            # Ignora apenas arquivos de tradução ou fontes/imagens
             if any(ign in url_resp.lower() for ign in ["assets/i18n", ".woff", ".png", ".svg", ".css", ".js"]):
                 return
 
@@ -178,10 +176,8 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                     texto_resp = await response.text()
                     if texto_resp and (texto_resp.strip().startswith("{") or texto_resp.strip().startswith("[")):
                         dados_json = json.loads(texto_resp)
-                        # Cria uma chave limpa baseada na URL da API
                         partes_url = [p for p in url_resp.split("?")[0].split("/") if p and not p.startswith("http") and "tcees.tc.br" not in p]
                         nome_endpoint = "_".join(partes_url[-3:]) if len(partes_url) >= 3 else "_".join(partes_url)
-                        
                         chave_identificada = classificar_endpoint_ou_bloco(
                             nome_endpoint + " " + texto_resp[:400],
                             mapeamento
@@ -194,10 +190,8 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
     page.on("response", interceptar_response)
 
     try:
-        # 1. Abre a página com domcontentloaded e aguarda o Angular renderizar
         await page.goto(url, wait_until="domcontentloaded", timeout=60000)
 
-        # 2. Espera até que os textos de carregamento sumam E números reais (R$ ou %) apareçam na tela
         try:
             await page.wait_for_function(
                 """() => {
@@ -209,10 +203,8 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 timeout=25000
             )
         except Exception:
-            # Caso demore mais ou seja uma página sem R$, aguarda 6 segundos fixos
             await asyncio.sleep(6.0)
 
-        # 3. Sempre faz um scroll rápido para disparar gráficos que só carregam ao rolar a tela (lazy load)
         await page.evaluate("""async () => {
             await new Promise((resolve) => {
                 let totalHeight = 0, distance = 600;
@@ -234,12 +226,9 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
         resultado_pagina["titulo_pagina"] = await page.title()
 
-        # 4. Extração inteligente do DOM: pega qualquer card, painel, tabela ou bloco que contenha números
         cards_extraidos = await page.evaluate("""() => {
             const blocos = [];
             const textosVistos = new Set();
-
-            // Seletores amplos para pegar componentes Angular, Bootstrap, Material e tabelas do TCE-ES
             const seletores = [
                 'mat-card', '.card', '.painel', '.box', 'section', 'table',
                 '[class*="card"]', '[class*="quadro"]', '[class*="painel"]',
@@ -251,7 +240,6 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
             elementos.forEach(el => {
                 const texto = (el.innerText || '').trim();
-                // Ignora blocos gigantes (a página inteira) ou muito curtos
                 if (texto.length > 8 && texto.length < 2000 && !textosVistos.has(texto)) {
                     const numeros = texto.match(/(?:R\\$\\s*)?-?\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?%?/g) || [];
                     if (numeros.length > 0) {
@@ -267,7 +255,6 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 }
             });
 
-            // Fallback: se nenhum seletor específico bateu, divide o texto visível da página em blocos com números
             if (blocos.length === 0 && document.body) {
                 const linhasBody = (document.body.innerText || '')
                     .split('\\n')
@@ -305,14 +292,12 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
             if not valores_limpos:
                 continue
 
-            # Guarda no array estruturado de quadros da tela
             resultado_pagina["quadros_extraidos_tela"].append({
                 "titulo": c["titulo"],
                 "detalhes": c["linhas"],
                 "metricas": valores_limpos
             })
 
-            # Se também bater com um dos seus indicadores-chave nomeados, adiciona direto em indicadores_mapeados
             chave_card = classificar_endpoint_ou_bloco(c["texto_busca"], mapeamento)
             if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
                 resultado_pagina["indicadores_mapeados"][chave_card] = {
@@ -321,13 +306,13 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 }
 
         print(
-            f"   ✓ [{ano}] {slug_ente} | {chave_pagina}: "
+            f"   [OK] [{ano}] {slug_ente} | {chave_pagina}: "
             f"{len(resultado_pagina['series_api'])} APIs capturadas, "
-            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros com números extraídos."
+            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros extraidos."
         )
 
     except Exception as e:
-        print(f"   [!] Erro em {slug_ente} ({ano}) - {chave_pagina}: {e}")
+        print(f"   [ERRO] {slug_ente} ({ano}) - {chave_pagina}: {e}")
     finally:
         await page.close()
 
@@ -341,7 +326,7 @@ async def main():
         base_consolidada = {"ultima_atualizacao": "", "entes": {}}
 
     if MODO_EXECUCAO == "teste_rapido":
-        print("⚡ MODO TESTE RÁPIDO: Coletando Estado do ES e Afonso Cláudio (2025 e 2026)...")
+        print("MODO TESTE RAPIDO: Coletando Estado do ES e Afonso Claudio (2025 e 2026)...")
         anos_alvo = [2025, ANO_ATUAL]
         entes_alvo = [
             {"tipo": "Estado", "nome": "Espírito Santo", "slug": "estado-es"},
@@ -363,7 +348,6 @@ async def main():
             headless=True,
             args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
         )
-        # Simula um navegador Chrome real no Windows em português do Brasil
         context = await browser.new_context(
             viewport={"width": 1440, "height": 1080},
             locale="pt-BR",
@@ -382,4 +366,27 @@ async def main():
 
             for ano in anos_alvo:
                 ano_str = str(ano)
-                print(f"\n🔄 Co
+                print(f"--- Coletando {ente['nome']} ({ano_str}) ---")
+                dados_ano = {}
+
+                for chave_pagina, info_pagina in PAGINAS_ALVO.items():
+                    dados_ano[chave_pagina] = await coletar_pagina_json(
+                        context, ente["tipo"], slug, ano, chave_pagina, info_pagina
+                    )
+
+                base_consolidada["entes"][slug]["anos"][ano_str] = dados_ano
+
+            caminho_ente_json = os.path.join(PASTA_MUNICIPIOS, f"{slug}.json")
+            with open(caminho_ente_json, "w", encoding="utf-8") as f:
+                json.dump(base_consolidada["entes"][slug], f, ensure_ascii=False, indent=2)
+
+            base_consolidada["ultima_atualizacao"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            with open(ARQUIVO_JSON_CONSOLIDADO, "w", encoding="utf-8") as f:
+                json.dump(base_consolidada, f, ensure_ascii=False)
+
+        await browser.close()
+
+    print(f"Concluido! JSON salvo em: {ARQUIVO_JSON_CONSOLIDADO}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
