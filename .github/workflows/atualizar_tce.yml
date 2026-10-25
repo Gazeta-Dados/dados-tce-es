@@ -1,0 +1,69 @@
+name: Coleta e Atualização TCE-ES (JSON)
+
+on:
+  # Agendamento automático: Todo dia 5 do mês às 06:00 BRT (sem prints, sobrescreve ano atual)
+  schedule:
+    - cron: '0 9 5 * *'
+
+  # Disparo manual pelo botão "Run workflow"
+  workflow_dispatch:
+    inputs:
+      modo_execucao:
+        description: 'Qual escopo você quer coletar?'
+        required: true
+        default: 'teste_rapido'
+        type: choice
+        options:
+          - teste_rapido
+          - historico_completo
+          - mensal
+      gerar_prints:
+        description: 'Gerar prints de 2026 para a revista impressa?'
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  coletar_json:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: 1. Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 3. Instalar Playwright e Chromium
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: 4. Executar o Robô Coletor (JSON)
+        env:
+          MODO_EXECUCAO: ${{ github.event_name == 'schedule' && 'mensal' || inputs.modo_execucao }}
+          GERAR_PRINTS: ${{ github.event_name == 'schedule' && 'false' || inputs.gerar_prints }}
+        run: python coletor_tce.py
+
+      - name: 5. Pacote de Prints de 2026 (Para Revista Impressa)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.gerar_prints == true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: prints-tce-es-2026-revista-impressa
+          path: prints_edicao_impressa/
+          retention-days: 90
+
+      - name: 6. Salvar JSONs atualizados no repositório
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Robô TCE-ES"
+          git add dados/
+          git diff --staged --quiet || git commit -m "📊 Atualização JSON TCE-ES ($(date +'%Y-%m-%d'))"
+          git push
