@@ -6,7 +6,6 @@ import unicodedata
 from datetime import datetime
 from playwright.async_api import async_playwright
 
-# Lê as variáveis enviadas pelo GitHub Actions
 MODO_EXECUCAO = os.getenv("MODO_EXECUCAO", "mensal")  # 'teste_rapido', 'historico_completo' ou 'mensal'
 GERAR_PRINTS = os.getenv("GERAR_PRINTS", "false").lower() == "true"
 
@@ -44,36 +43,36 @@ PAGINAS_ALVO = {
         "rota": "visaoGeral",
         "mapeamento_indicadores": {
             "saude": ["saúde", "saude", "aplicação em saúde"],
-            "educacao": ["educação", "educacao", "manutenção e desenvolvimento do ensino"],
-            "pessoal_consolidado": ["pessoal consolidado", "despesa com pessoal - consolidado", "consolidado"],
+            "educacao": ["educação", "educacao", "manutenção e desenvolvimento do ensino", "ensino"],
+            "pessoal_consolidado": ["pessoal consolidado", "despesa com pessoal - consolidado", "consolidado", "pessoal"],
             "pessoal_executivo": ["pessoal executivo", "poder executivo", "executivo"],
             "pessoal_legislativo": ["pessoal legislativo", "poder legislativo", "legislativo"],
-            "despesas_x_receitas_correntes": ["despesas x receitas correntes", "operações de crédito", "capag", "relação entre despesas correntes"],
-            "divida_consolidada_liquida": ["dívida consolidada líquida", "divida consolidada liquida", "endividamento"]
+            "despesas_x_receitas_correntes": ["despesas x receitas", "receitas correntes", "capag", "relação entre despesas"],
+            "divida_consolidada_liquida": ["dívida consolidada", "divida consolidada", "endividamento"]
         }
     },
     "receitas": {
         "rota": "gestaoOrcamentaria/receitas",
         "mapeamento_indicadores": {
-            "receitas_x_despesas": ["receitas x despesas", "comparativo receita", "prevista", "arrecadada"],
+            "receitas_x_despesas": ["receitas x despesas", "comparativo", "prevista", "arrecadada"],
             "evolucao_anual_receita": ["evolução anual", "evolucao anual", "histórico anual"],
-            "arrecadacao_comparada_ano_anterior": ["ano anterior", "comparada ao ano anterior", "variação"],
-            "receitas_proprias": ["receitas próprias", "receitas proprias", "arrecadação própria"],
-            "transferencias_estado": ["transferências do estado", "transferencias do estado", "icms", "ipva"],
-            "transferencias_uniao": ["transferências da união", "transferencias da uniao", "fpm"],
+            "arrecadacao_comparada_ano_anterior": ["ano anterior", "comparada", "variação"],
+            "receitas_proprias": ["receitas próprias", "receitas proprias", "própria"],
+            "transferencias_estado": ["transferências do estado", "estado", "icms", "ipva"],
+            "transferencias_uniao": ["transferências da união", "união", "uniao", "fpm"],
             "evolucao_mensal_receita": ["evolução mensal", "evolucao mensal", "mensal"]
         }
     },
     "despesas": {
         "rota": "gestaoOrcamentaria/despesas",
         "mapeamento_indicadores": {
-            "composicao_despesa_liquidada": ["composição da despesa liquidada", "composicao"],
-            "despesas_pagas_ano_anterior": ["despesas pagas em relação ao ano anterior", "ano anterior"],
+            "composicao_despesa_liquidada": ["composição", "composicao", "liquidada"],
+            "despesas_pagas_ano_anterior": ["ano anterior", "despesas pagas"],
             "evolucao_empenhadas_liquidadas_pagas": ["empenhadas", "liquidadas", "pagas"],
             "evolucao_mensal_despesas": ["evolução mensal", "evolucao mensal"],
-            "despesas_correntes": ["despesas correntes", "custeio"],
-            "despesas_capital": ["despesas de capital", "investimentos"],
-            "distribuicao_despesas_liquidadas": ["distribuição das despesas", "distribuicao", "função"]
+            "despesas_correntes": ["despesas correntes", "correntes", "custeio"],
+            "despesas_capital": ["despesas de capital", "capital", "investimentos"],
+            "distribuicao_despesas_liquidadas": ["distribuição", "distribuicao", "função"]
         }
     },
     "dividaConsolidada": {
@@ -81,16 +80,16 @@ PAGINAS_ALVO = {
         "mapeamento_indicadores": {
             "evolucao_mensal": ["evolução mensal", "evolucao mensal", "bimestral", "quadrimestral"],
             "evolucao_anual": ["evolução anual", "evolucao anual"],
-            "evolucao_percentual_anual": ["evolução percentual", "percentual anual", "% da rcl"]
+            "evolucao_percentual_anual": ["percentual", "% da rcl", "dcl"]
         }
     },
     "fundeb": {
         "rota": "gestaoFiscal/educacaoFundeb",
         "mapeamento_indicadores": {
-            "destinado": ["destinado", "enviado ao fundeb", "contribuição"],
-            "recebido": ["recebido", "retorno do fundeb", "transferência recebida"],
-            "evolucao_anual_municipio": ["evolução anual do município", "evolucao anual", "resultado líquido"],
-            "evolucao_anual_magisterio": ["magistério", "magisterio", "profissionais da educação", "70%"]
+            "destinado": ["destinado", "enviado", "contribuição"],
+            "recebido": ["recebido", "retorno", "transferência"],
+            "evolucao_anual_municipio": ["evolução anual", "resultado"],
+            "evolucao_anual_magisterio": ["magistério", "magisterio", "profissionais", "70%"]
         }
     },
     "receitaCorrenteLiquida": {
@@ -98,7 +97,7 @@ PAGINAS_ALVO = {
         "mapeamento_indicadores": {
             "evolucao_mensal_rcl": ["evolução mensal", "evolucao mensal"],
             "evolucao_anual_rcl": ["evolução anual", "evolucao anual"],
-            "rcl_ajustada_endividamento": ["ajustada", "endividamento", "rcl ajustada"]
+            "rcl_ajustada_endividamento": ["ajustada", "endividamento", "rcl"]
         }
     }
 }
@@ -124,7 +123,7 @@ def limpar_payload_api(dados):
         return [limpar_payload_api(item) for item in dados if item is not None]
     elif isinstance(dados, dict):
         dicionario_limpo = {}
-        chaves_ignorar = {"id", "guid", "cor", "color", "icone", "icon", "tooltip", "ordem", "style", "classeCss"}
+        chaves_ignorar = {"guid", "cor", "color", "icone", "icon", "tooltip", "style", "classeCss"}
         for k, v in dados.items():
             if k not in chaves_ignorar and v is not None and v != "":
                 dicionario_limpo[k] = limpar_payload_api(v)
@@ -152,8 +151,10 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     resultado_pagina = {
         "url_fonte": url,
-        "indicadores": {},
-        "series_dados": {}
+        "titulo_pagina": "",
+        "indicadores_mapeados": {},
+        "quadros_extraidos_tela": [],
+        "series_api": {}
     }
 
     if tirar_print:
@@ -163,97 +164,170 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     page = await context.new_page()
 
+    # Intercepta TODAS as respostas JSON ou XHR/Fetch vindas do TCE-ES
     async def interceptar_response(response):
         try:
-            content_type = response.headers.get("content-type", "")
-            if "application/json" in content_type and response.status == 200:
-                url_resp = response.url
-                if not any(ign in url_resp for ign in [".json", "assets", "i18n", "config"]):
-                    dados_json = await response.json()
-                    nome_endpoint = url_resp.split("paineldecontrole.tcees.tc.br")[-1].split("?")[0].strip("/")
-                    chave_identificada = classificar_endpoint_ou_bloco(
-                        nome_endpoint + " " + json.dumps(dados_json, ensure_ascii=False)[:300],
-                        mapeamento
-                    )
-                    chave_final = chave_identificada or nome_endpoint.split("/")[-1]
-                    resultado_pagina["series_dados"][chave_final] = limpar_payload_api(dados_json)
+            url_resp = response.url
+            # Ignora apenas arquivos de tradução ou fontes/imagens
+            if any(ign in url_resp.lower() for ign in ["assets/i18n", ".woff", ".png", ".svg", ".css", ".js"]):
+                return
+
+            content_type = response.headers.get("content-type", "").lower()
+            if "json" in content_type or "api" in url_resp.lower() or "service" in url_resp.lower():
+                if response.status == 200:
+                    texto_resp = await response.text()
+                    if texto_resp and (texto_resp.strip().startswith("{") or texto_resp.strip().startswith("[")):
+                        dados_json = json.loads(texto_resp)
+                        # Cria uma chave limpa baseada na URL da API
+                        partes_url = [p for p in url_resp.split("?")[0].split("/") if p and not p.startswith("http") and "tcees.tc.br" not in p]
+                        nome_endpoint = "_".join(partes_url[-3:]) if len(partes_url) >= 3 else "_".join(partes_url)
+                        
+                        chave_identificada = classificar_endpoint_ou_bloco(
+                            nome_endpoint + " " + texto_resp[:400],
+                            mapeamento
+                        )
+                        chave_final = f"{chave_identificada}__{nome_endpoint}" if chave_identificada else nome_endpoint
+                        resultado_pagina["series_api"][chave_final] = limpar_payload_api(dados_json)
         except Exception:
             pass
 
     page.on("response", interceptar_response)
 
     try:
-        await page.goto(url, wait_until="networkidle", timeout=60000)
+        # 1. Abre a página com domcontentloaded e aguarda o Angular renderizar
+        await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+
+        # 2. Espera até que os textos de carregamento sumam E números reais (R$ ou %) apareçam na tela
         try:
             await page.wait_for_function(
-                "() => !document.body.innerText.includes('Obtendo os dados') && !document.body.innerText.includes('Carregando...')",
-                timeout=12000
+                """() => {
+                    const txt = document.body ? document.body.innerText : '';
+                    const carregando = txt.includes('Obtendo os dados') || txt.includes('Carregando');
+                    const temNumeros = /(\\d+[,.]\\d+)|R\\$|%/.test(txt);
+                    return !carregando && temNumeros && txt.length > 300;
+                }""",
+                timeout=25000
             )
         except Exception:
-            pass
+            # Caso demore mais ou seja uma página sem R$, aguarda 6 segundos fixos
+            await asyncio.sleep(6.0)
+
+        # 3. Sempre faz um scroll rápido para disparar gráficos que só carregam ao rolar a tela (lazy load)
+        await page.evaluate("""async () => {
+            await new Promise((resolve) => {
+                let totalHeight = 0, distance = 600;
+                let timer = setInterval(() => {
+                    window.scrollBy(0, distance);
+                    totalHeight += distance;
+                    if(totalHeight >= document.body.scrollHeight || totalHeight > 10000){
+                        clearInterval(timer);
+                        window.scrollTo(0, 0);
+                        resolve();
+                    }
+                }, 150);
+            });
+        }""")
+        await asyncio.sleep(2.5)
 
         if tirar_print:
-            await page.evaluate("""async () => {
-                await new Promise((resolve) => {
-                    let totalHeight = 0, distance = 500;
-                    let timer = setInterval(() => {
-                        window.scrollBy(0, distance);
-                        totalHeight += distance;
-                        if(totalHeight >= document.body.scrollHeight){
-                            clearInterval(timer);
-                            window.scrollTo(0, 0);
-                            resolve();
-                        }
-                    }, 120);
-                });
-            }""")
-            await asyncio.sleep(2.0)
             await page.screenshot(path=caminho_print, full_page=True, type="jpeg", quality=85)
-        else:
-            await asyncio.sleep(0.4)
 
+        resultado_pagina["titulo_pagina"] = await page.title()
+
+        # 4. Extração inteligente do DOM: pega qualquer card, painel, tabela ou bloco que contenha números
         cards_extraidos = await page.evaluate("""() => {
-            const cards = [];
-            const seletores = 'mat-card, .card, .painel, .box, section, [class*="card"], [class*="quadro"]';
+            const blocos = [];
+            const textosVistos = new Set();
+
+            // Seletores amplos para pegar componentes Angular, Bootstrap, Material e tabelas do TCE-ES
+            const seletores = [
+                'mat-card', '.card', '.painel', '.box', 'section', 'table',
+                '[class*="card"]', '[class*="quadro"]', '[class*="painel"]',
+                '[class*="indicador"]', '[class*="bloco"]', '[class*="chart"]',
+                '[class*="grafico"]', 'app-card', 'div.row > div[class*="col-"]'
+            ].join(', ');
+
             const elementos = Array.from(document.querySelectorAll(seletores));
-            const vistos = new Set();
 
             elementos.forEach(el => {
                 const texto = (el.innerText || '').trim();
-                if (texto.length > 5 && texto.length < 1500 && !vistos.has(texto)) {
-                    vistos.add(texto);
-                    const linhas = texto.split('\\n').map(l => l.trim()).filter(l => l.length > 0);
+                // Ignora blocos gigantes (a página inteira) ou muito curtos
+                if (texto.length > 8 && texto.length < 2000 && !textosVistos.has(texto)) {
                     const numeros = texto.match(/(?:R\\$\\s*)?-?\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?%?/g) || [];
-                    if (linhas.length > 0 && numeros.length > 0) {
-                        cards.push({
-                            titulo: linhas.slice(0, 2).join(' - '),
+                    if (numeros.length > 0) {
+                        textosVistos.add(texto);
+                        const linhas = texto.split('\\n').map(l => l.trim()).filter(l => l.length > 0);
+                        blocos.push({
+                            titulo: linhas.slice(0, 2).join(' | '),
+                            linhas: linhas,
                             texto_busca: texto,
                             valores_brutos: numeros
                         });
                     }
                 }
             });
-            return cards;
+
+            // Fallback: se nenhum seletor específico bateu, divide o texto visível da página em blocos com números
+            if (blocos.length === 0 && document.body) {
+                const linhasBody = (document.body.innerText || '')
+                    .split('\\n')
+                    .map(l => l.trim())
+                    .filter(l => l.length > 0);
+                
+                for (let i = 0; i < linhasBody.length; i++) {
+                    const l = linhasBody[i];
+                    const nums = l.match(/(?:R\\$\\s*)?-?\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?%?/g);
+                    if (nums) {
+                        const contexto = linhasBody.slice(Math.max(0, i - 2), Math.min(linhasBody.length, i + 2));
+                        blocos.push({
+                            titulo: contexto[0] || 'Item',
+                            linhas: contexto,
+                            texto_busca: contexto.join(' | '),
+                            valores_brutos: nums
+                        });
+                    }
+                }
+            }
+            return blocos;
         }""")
 
         for c in cards_extraidos:
+            valores_limpos = []
+            for val_str in c["valores_brutos"]:
+                num_float = converter_numero_br(val_str)
+                if num_float is not None:
+                    valores_limpos.append({
+                        "valor": num_float,
+                        "formatado": val_str.strip(),
+                        "unidade": "%" if "%" in val_str else ("R$" if "R$" in val_str else "numero")
+                    })
+
+            if not valores_limpos:
+                continue
+
+            # Guarda no array estruturado de quadros da tela
+            resultado_pagina["quadros_extraidos_tela"].append({
+                "titulo": c["titulo"],
+                "detalhes": c["linhas"],
+                "metricas": valores_limpos
+            })
+
+            # Se também bater com um dos seus indicadores-chave nomeados, adiciona direto em indicadores_mapeados
             chave_card = classificar_endpoint_ou_bloco(c["texto_busca"], mapeamento)
-            if chave_card:
-                valores_numericos = []
-                for val_str in c["valores_brutos"]:
-                    num_float = converter_numero_br(val_str)
-                    if num_float is not None:
-                        valores_numericos.append({
-                            "valor": num_float,
-                            "unidade": "%" if "%" in val_str else ("R$" if "R$" in val_str else "numero")
-                        })
-                if valores_numericos:
-                    resultado_pagina["indicadores"][chave_card] = (
-                        valores_numericos[0] if len(valores_numericos) == 1 else valores_numericos
-                    )
+            if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
+                resultado_pagina["indicadores_mapeados"][chave_card] = {
+                    "rotulo_original": c["titulo"],
+                    "metricas": valores_limpos
+                }
+
+        print(
+            f"   ✓ [{ano}] {slug_ente} | {chave_pagina}: "
+            f"{len(resultado_pagina['series_api'])} APIs capturadas, "
+            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros com números extraídos."
+        )
 
     except Exception as e:
-        print(f"[!] Erro em {slug_ente} ({ano}) - {chave_pagina}: {e}")
+        print(f"   [!] Erro em {slug_ente} ({ano}) - {chave_pagina}: {e}")
     finally:
         await page.close()
 
@@ -285,8 +359,17 @@ async def main():
         ]
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(viewport={"width": 1440, "height": 1080}, locale="pt-BR")
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+        )
+        # Simula um navegador Chrome real no Windows em português do Brasil
+        context = await browser.new_context(
+            viewport={"width": 1440, "height": 1080},
+            locale="pt-BR",
+            timezone_id="America/Sao_Paulo",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        )
 
         for ente in entes_alvo:
             slug = ente["slug"]
@@ -299,27 +382,4 @@ async def main():
 
             for ano in anos_alvo:
                 ano_str = str(ano)
-                print(f"🔄 Coletando {ente['nome']} ({ano_str})...")
-                dados_ano = {}
-
-                for chave_pagina, info_pagina in PAGINAS_ALVO.items():
-                    dados_ano[chave_pagina] = await coletar_pagina_json(
-                        context, ente["tipo"], slug, ano, chave_pagina, info_pagina
-                    )
-
-                base_consolidada["entes"][slug]["anos"][ano_str] = dados_ano
-
-            caminho_ente_json = os.path.join(PASTA_MUNICIPIOS, f"{slug}.json")
-            with open(caminho_ente_json, "w", encoding="utf-8") as f:
-                json.dump(base_consolidada["entes"][slug], f, ensure_ascii=False, indent=2)
-
-            base_consolidada["ultima_atualizacao"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            with open(ARQUIVO_JSON_CONSOLIDADO, "w", encoding="utf-8") as f:
-                json.dump(base_consolidada, f, ensure_ascii=False)
-
-        await browser.close()
-
-    print(f"\n✅ Concluído! JSON salvo em: {ARQUIVO_JSON_CONSOLIDADO}")
-
-if __name__ == "__main__":
-    asyncio.run(main())
+                print(f"\n🔄 Co
