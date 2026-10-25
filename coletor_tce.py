@@ -102,6 +102,8 @@ PAGINAS_ALVO = {
     }
 }
 
+REGEX_NUMEROS_BR = re.compile(r"(?:R\$\s*)?-?\d{1,3}(?:\.\d{3})*(?:,\d+)?%?")
+
 def gerar_slug(nome):
     sem_acento = "".join(c for c in unicodedata.normalize("NFD", nome) if unicodedata.category(c) != "Mn")
     slug = re.sub(r"[^a-zA-Z0-9\s-]", "", sem_acento).strip().lower()
@@ -118,6 +120,22 @@ def converter_numero_br(texto):
     except ValueError:
         return None
 
+def extrair_metricas_de_texto(texto):
+    encontrados = REGEX_NUMEROS_BR.findall(texto or "")
+    metricas = []
+    for val_str in encontrados:
+        val_str_limpo = val_str.strip()
+        if not val_str_limpo:
+            continue
+        num_float = converter_numero_br(val_str_limpo)
+        if num_float is not None:
+            metricas.append({
+                "valor": num_float,
+                "formatado": val_str_limpo,
+                "unidade": "%" if "%" in val_str_limpo else ("R$" if "R$" in val_str_limpo else "numero")
+            })
+    return metricas
+
 def limpar_payload_api(dados):
     if isinstance(dados, list):
         return [limpar_payload_api(item) for item in dados if item is not None]
@@ -131,7 +149,7 @@ def limpar_payload_api(dados):
     return dados
 
 def classificar_endpoint_ou_bloco(identificador_texto, mapeamento):
-    texto_lower = identificador_texto.lower()
+    texto_lower = (identificador_texto or "").lower()
     for chave_limpa, termos_busca in mapeamento.items():
         if any(termo in texto_lower for termo in termos_busca):
             return chave_limpa
@@ -164,26 +182,27 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     page = await context.new_page()
 
+    # Captura TODA resposta que seja um JSON válido (independente da URL ou do cabeçalho)
     async def interceptar_response(response):
         try:
             url_resp = response.url
-            if any(ign in url_resp.lower() for ign in ["assets/i18n", ".woff", ".png", ".svg", ".css", ".js"]):
+            if any(ext in url_resp.lower() for ext in [".woff", ".png", ".jpg", ".svg", ".css", ".js", "assets/i18n"]):
                 return
-
-            content_type = response.headers.get("content-type", "").lower()
-            if "json" in content_type or "api" in url_resp.lower() or "service" in url_resp.lower():
-                if response.status == 200:
-                    texto_resp = await response.text()
-                    if texto_resp and (texto_resp.strip().startswith("{") or texto_resp.strip().startswith("[")):
-                        dados_json = json.loads(texto_resp)
-                        partes_url = [p for p in url_resp.split("?")[0].split("/") if p and not p.startswith("http") and "tcees.tc.br" not in p]
-                        nome_endpoint = "_".join(partes_url[-3:]) if len(partes_url) >= 3 else "_".join(partes_url)
-                        chave_identificada = classificar_endpoint_ou_bloco(
-                            nome_endpoint + " " + texto_resp[:400],
-                            mapeamento
-                        )
-                        chave_final = f"{chave_identificada}__{nome_endpoint}" if chave_identificada else nome_endpoint
-                        resultado_pagina["series_api"][chave_final] = limpar_payload_api(dados_json)
+            if response.status == 200:
+                texto_resp = await response.text()
+                if not texto_resp:
+                    return
+                txt_strip = texto_resp.strip()
+                if (txt_strip.startswith("{") and txt_strip.endswith("}")) or (txt_strip.startswith("[") and txt_strip.endswith("]")):
+                    dados_json = json.loads(txt_strip)
+                    partes_url = [p for p in url_resp.split("?")[0].split("/") if p and not p.startswith("http") and "tcees.tc.br" not in p]
+                    nome_endpoint = "_".join(partes_url[-3:]) if len(partes_url) >= 3 else "_".join(partes_url)
+                    chave_identificada = classificar_endpoint_ou_bloco(
+                        nome_endpoint + " " + txt_strip[:500],
+                        mapeamento
+                    )
+                    chave_final = f"{chave_identificada}__{nome_endpoint}" if chave_identificada else (nome_endpoint or "dados")
+                    resultado_pagina["series_api"][chave_final] = limpar_payload_api(dados_json)
         except Exception:
             pass
 
@@ -192,26 +211,27 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=60000)
 
+        # Usa raw string (r"""...""") para o Python nao engolir as barras do Regex em JS!
         try:
             await page.wait_for_function(
-                """() => {
+                r"""() => {
                     const txt = document.body ? document.body.innerText : '';
                     const carregando = txt.includes('Obtendo os dados') || txt.includes('Carregando');
-                    const temNumeros = /(\\d+[,.]\\d+)|R\\$|%/.test(txt);
-                    return !carregando && temNumeros && txt.length > 300;
+                    const temNumeros = /(\d+[,.]\d+)|R\$|%/.test(txt);
+                    return !carregando && temNumeros && txt.length > 200;
                 }""",
                 timeout=25000
             )
         except Exception:
-            await asyncio.sleep(6.0)
+            await asyncio.sleep(7.0)
 
-        await page.evaluate("""async () => {
+        await page.evaluate(r"""async () => {
             await new Promise((resolve) => {
                 let totalHeight = 0, distance = 600;
                 let timer = setInterval(() => {
                     window.scrollBy(0, distance);
                     totalHeight += distance;
-                    if(totalHeight >= document.body.scrollHeight || totalHeight > 10000){
+                    if(totalHeight >= document.body.scrollHeight || totalHeight > 12000){
                         clearInterval(timer);
                         window.scrollTo(0, 0);
                         resolve();
@@ -219,18 +239,19 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 }, 150);
             });
         }""")
-        await asyncio.sleep(2.5)
+        await asyncio.sleep(3.0)
 
         if tirar_print:
             await page.screenshot(path=caminho_print, full_page=True, type="jpeg", quality=85)
 
         resultado_pagina["titulo_pagina"] = await page.title()
 
-        cards_extraidos = await page.evaluate("""() => {
+        # Extrai os textos dos blocos no navegador e faz o parse numérico no Python (muito mais confiável!)
+        dados_dom = await page.evaluate(r"""() => {
             const blocos = [];
             const textosVistos = new Set();
             const seletores = [
-                'mat-card', '.card', '.painel', '.box', 'section', 'table',
+                'mat-card', '.card', '.painel', '.box', 'section', 'table', 'article',
                 '[class*="card"]', '[class*="quadro"]', '[class*="painel"]',
                 '[class*="indicador"]', '[class*="bloco"]', '[class*="chart"]',
                 '[class*="grafico"]', 'app-card', 'div.row > div[class*="col-"]'
@@ -240,75 +261,77 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
             elementos.forEach(el => {
                 const texto = (el.innerText || '').trim();
-                if (texto.length > 8 && texto.length < 2000 && !textosVistos.has(texto)) {
-                    const numeros = texto.match(/(?:R\\$\\s*)?-?\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?%?/g) || [];
-                    if (numeros.length > 0) {
-                        textosVistos.add(texto);
-                        const linhas = texto.split('\\n').map(l => l.trim()).filter(l => l.length > 0);
+                if (texto.length > 5 && texto.length < 3000 && !textosVistos.has(texto)) {
+                    textosVistos.add(texto);
+                    const linhas = texto.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                    if (linhas.length > 0) {
                         blocos.push({
                             titulo: linhas.slice(0, 2).join(' | '),
                             linhas: linhas,
-                            texto_busca: texto,
-                            valores_brutos: numeros
+                            texto_busca: texto
                         });
                     }
                 }
             });
 
-            if (blocos.length === 0 && document.body) {
-                const linhasBody = (document.body.innerText || '')
-                    .split('\\n')
-                    .map(l => l.trim())
-                    .filter(l => l.length > 0);
-                
-                for (let i = 0; i < linhasBody.length; i++) {
-                    const l = linhasBody[i];
-                    const nums = l.match(/(?:R\\$\\s*)?-?\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?%?/g);
-                    if (nums) {
-                        const contexto = linhasBody.slice(Math.max(0, i - 2), Math.min(linhasBody.length, i + 2));
-                        blocos.push({
-                            titulo: contexto[0] || 'Item',
-                            linhas: contexto,
-                            texto_busca: contexto.join(' | '),
-                            valores_brutos: nums
-                        });
-                    }
-                }
-            }
-            return blocos;
+            const textoIntegralLinhas = document.body
+                ? (document.body.innerText || '').split('\n').map(l => l.trim()).filter(l => l.length > 0)
+                : [];
+
+            return {
+                blocos: blocos,
+                linhas_pagina: textoIntegralLinhas
+            };
         }""")
 
-        for c in cards_extraidos:
-            valores_limpos = []
-            for val_str in c["valores_brutos"]:
-                num_float = converter_numero_br(val_str)
-                if num_float is not None:
-                    valores_limpos.append({
-                        "valor": num_float,
-                        "formatado": val_str.strip(),
-                        "unidade": "%" if "%" in val_str else ("R$" if "R$" in val_str else "numero")
-                    })
-
-            if not valores_limpos:
+        # Processa cada bloco no Python usando REGEX_NUMEROS_BR
+        for c in dados_dom.get("blocos", []):
+            metricas = extrair_metricas_de_texto(c["texto_busca"])
+            if not metricas:
                 continue
 
             resultado_pagina["quadros_extraidos_tela"].append({
                 "titulo": c["titulo"],
                 "detalhes": c["linhas"],
-                "metricas": valores_limpos
+                "metricas": metricas
             })
 
             chave_card = classificar_endpoint_ou_bloco(c["texto_busca"], mapeamento)
             if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
                 resultado_pagina["indicadores_mapeados"][chave_card] = {
                     "rotulo_original": c["titulo"],
-                    "metricas": valores_limpos
+                    "detalhes": c["linhas"],
+                    "metricas": metricas
                 }
+
+        # Fallback garantido: se por algum motivo os seletores de card não pegarem, varre as linhas da página
+        linhas_pag = dados_dom.get("linhas_pagina", [])
+        if not resultado_pagina["quadros_extraidos_tela"] and linhas_pag:
+            for idx, linha in enumerate(linhas_pag):
+                metricas_linha = extrair_metricas_de_texto(linha)
+                if metricas_linha:
+                    inicio = max(0, idx - 2)
+                    fim = min(len(linhas_pag), idx + 3)
+                    contexto = linhas_pag[inicio:fim]
+                    texto_ctx = " | ".join(contexto)
+                    resultado_pagina["quadros_extraidos_tela"].append({
+                        "titulo": contexto[0],
+                        "detalhes": contexto,
+                        "metricas": metricas_linha
+                    })
+                    chave_card = classificar_endpoint_ou_bloco(texto_ctx, mapeamento)
+                    if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
+                        resultado_pagina["indicadores_mapeados"][chave_card] = {
+                            "rotulo_original": contexto[0],
+                            "detalhes": contexto,
+                            "metricas": metricas_linha
+                        }
 
         print(
             f"   [OK] [{ano}] {slug_ente} | {chave_pagina}: "
-            f"{len(resultado_pagina['series_api'])} APIs capturadas, "
-            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros extraidos."
+            f"{len(resultado_pagina['series_api'])} APIs, "
+            f"{len(resultado_pagina['indicadores_mapeados'])} indicadores mapeados, "
+            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros com numeros."
         )
 
     except Exception as e:
