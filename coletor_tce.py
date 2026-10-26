@@ -39,67 +39,12 @@ MUNICIPIOS_ES = [
 ]
 
 PAGINAS_ALVO = {
-    "visaoGeral": {
-        "rota": "visaoGeral",
-        "mapeamento_indicadores": {
-            "saude": ["saúde", "saude", "aplicação em saúde"],
-            "educacao": ["educação", "educacao", "manutenção e desenvolvimento do ensino", "ensino"],
-            "pessoal_consolidado": ["pessoal consolidado", "despesa com pessoal - consolidado", "consolidado", "pessoal"],
-            "pessoal_executivo": ["pessoal executivo", "poder executivo", "executivo"],
-            "pessoal_legislativo": ["pessoal legislativo", "poder legislativo", "legislativo"],
-            "despesas_x_receitas_correntes": ["despesas x receitas", "receitas correntes", "capag", "relação entre despesas"],
-            "divida_consolidada_liquida": ["dívida consolidada", "divida consolidada", "endividamento"]
-        }
-    },
-    "receitas": {
-        "rota": "gestaoOrcamentaria/receitas",
-        "mapeamento_indicadores": {
-            "receitas_x_despesas": ["receitas x despesas", "comparativo", "prevista", "arrecadada"],
-            "evolucao_anual_receita": ["evolução anual", "evolucao anual", "histórico anual"],
-            "arrecadacao_comparada_ano_anterior": ["ano anterior", "comparada", "variação"],
-            "receitas_proprias": ["receitas próprias", "receitas proprias", "própria"],
-            "transferencias_estado": ["transferências do estado", "estado", "icms", "ipva"],
-            "transferencias_uniao": ["transferências da união", "união", "uniao", "fpm"],
-            "evolucao_mensal_receita": ["evolução mensal", "evolucao mensal", "mensal"]
-        }
-    },
-    "despesas": {
-        "rota": "gestaoOrcamentaria/despesas",
-        "mapeamento_indicadores": {
-            "composicao_despesa_liquidada": ["composição", "composicao", "liquidada"],
-            "despesas_pagas_ano_anterior": ["ano anterior", "despesas pagas"],
-            "evolucao_empenhadas_liquidadas_pagas": ["empenhadas", "liquidadas", "pagas"],
-            "evolucao_mensal_despesas": ["evolução mensal", "evolucao mensal"],
-            "despesas_correntes": ["despesas correntes", "correntes", "custeio"],
-            "despesas_capital": ["despesas de capital", "capital", "investimentos"],
-            "distribuicao_despesas_liquidadas": ["distribuição", "distribuicao", "função"]
-        }
-    },
-    "dividaConsolidada": {
-        "rota": "gestaoFiscal/endividamento",
-        "mapeamento_indicadores": {
-            "evolucao_mensal": ["evolução mensal", "evolucao mensal", "bimestral", "quadrimestral"],
-            "evolucao_anual": ["evolução anual", "evolucao anual"],
-            "evolucao_percentual_anual": ["percentual", "% da rcl", "dcl"]
-        }
-    },
-    "fundeb": {
-        "rota": "gestaoFiscal/educacaoFundeb",
-        "mapeamento_indicadores": {
-            "destinado": ["destinado", "enviado", "contribuição"],
-            "recebido": ["recebido", "retorno", "transferência"],
-            "evolucao_anual_municipio": ["evolução anual", "resultado"],
-            "evolucao_anual_magisterio": ["magistério", "magisterio", "profissionais", "70%"]
-        }
-    },
-    "receitaCorrenteLiquida": {
-        "rota": "gestaoFiscal/receitaCorrenteLiquida",
-        "mapeamento_indicadores": {
-            "evolucao_mensal_rcl": ["evolução mensal", "evolucao mensal"],
-            "evolucao_anual_rcl": ["evolução anual", "evolucao anual"],
-            "rcl_ajustada_endividamento": ["ajustada", "endividamento", "rcl"]
-        }
-    }
+    "visaoGeral": "visaoGeral",
+    "receitas": "gestaoOrcamentaria/receitas",
+    "despesas": "gestaoOrcamentaria/despesas",
+    "dividaConsolidada": "gestaoFiscal/endividamento",
+    "fundeb": "gestaoFiscal/educacaoFundeb",
+    "receitaCorrenteLiquida": "gestaoFiscal/receitaCorrenteLiquida"
 }
 
 REGEX_NUMEROS_BR = re.compile(r"(?:R\$\s*)?-?\d{1,3}(?:\.\d{3})*(?:,\d+)?%?")
@@ -136,28 +81,7 @@ def extrair_metricas_de_texto(texto):
             })
     return metricas
 
-def limpar_payload_api(dados):
-    if isinstance(dados, list):
-        return [limpar_payload_api(item) for item in dados if item is not None]
-    elif isinstance(dados, dict):
-        dicionario_limpo = {}
-        chaves_ignorar = {"guid", "cor", "color", "icone", "icon", "tooltip", "style", "classeCss"}
-        for k, v in dados.items():
-            if k not in chaves_ignorar and v is not None and v != "":
-                dicionario_limpo[k] = limpar_payload_api(v)
-        return dicionario_limpo
-    return dados
-
-def classificar_endpoint_ou_bloco(identificador_texto, mapeamento):
-    texto_lower = (identificador_texto or "").lower()
-    for chave_limpa, termos_busca in mapeamento.items():
-        if any(termo in texto_lower for termo in termos_busca):
-            return chave_limpa
-    return None
-
-async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, info_pagina):
-    rota = info_pagina["rota"]
-    mapeamento = info_pagina["mapeamento_indicadores"]
+async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, rota):
     tirar_print = GERAR_PRINTS and (ano == ANO_ATUAL)
 
     if tipo_ente == "Estado":
@@ -169,10 +93,7 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     resultado_pagina = {
         "url_fonte": url,
-        "titulo_pagina": "",
-        "indicadores_mapeados": {},
-        "quadros_extraidos_tela": [],
-        "series_api": {}
+        "quadros": []
     }
 
     if tirar_print:
@@ -182,36 +103,9 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
 
     page = await context.new_page()
 
-    # Captura TODA resposta que seja um JSON válido (independente da URL ou do cabeçalho)
-    async def interceptar_response(response):
-        try:
-            url_resp = response.url
-            if any(ext in url_resp.lower() for ext in [".woff", ".png", ".jpg", ".svg", ".css", ".js", "assets/i18n"]):
-                return
-            if response.status == 200:
-                texto_resp = await response.text()
-                if not texto_resp:
-                    return
-                txt_strip = texto_resp.strip()
-                if (txt_strip.startswith("{") and txt_strip.endswith("}")) or (txt_strip.startswith("[") and txt_strip.endswith("]")):
-                    dados_json = json.loads(txt_strip)
-                    partes_url = [p for p in url_resp.split("?")[0].split("/") if p and not p.startswith("http") and "tcees.tc.br" not in p]
-                    nome_endpoint = "_".join(partes_url[-3:]) if len(partes_url) >= 3 else "_".join(partes_url)
-                    chave_identificada = classificar_endpoint_ou_bloco(
-                        nome_endpoint + " " + txt_strip[:500],
-                        mapeamento
-                    )
-                    chave_final = f"{chave_identificada}__{nome_endpoint}" if chave_identificada else (nome_endpoint or "dados")
-                    resultado_pagina["series_api"][chave_final] = limpar_payload_api(dados_json)
-        except Exception:
-            pass
-
-    page.on("response", interceptar_response)
-
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=60000)
 
-        # Usa raw string (r"""...""") para o Python nao engolir as barras do Regex em JS!
         try:
             await page.wait_for_function(
                 r"""() => {
@@ -223,7 +117,7 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 timeout=25000
             )
         except Exception:
-            await asyncio.sleep(7.0)
+            await asyncio.sleep(6.0)
 
         await page.evaluate(r"""async () => {
             await new Promise((resolve) => {
@@ -231,7 +125,7 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 let timer = setInterval(() => {
                     window.scrollBy(0, distance);
                     totalHeight += distance;
-                    if(totalHeight >= document.body.scrollHeight || totalHeight > 12000){
+                    if(totalHeight >= document.body.scrollHeight || totalHeight > 10000){
                         clearInterval(timer);
                         window.scrollTo(0, 0);
                         resolve();
@@ -239,100 +133,42 @@ async def coletar_pagina_json(context, tipo_ente, slug_ente, ano, chave_pagina, 
                 }, 150);
             });
         }""")
-        await asyncio.sleep(3.0)
+        await asyncio.sleep(2.0)
 
         if tirar_print:
             await page.screenshot(path=caminho_print, full_page=True, type="jpeg", quality=85)
 
-        resultado_pagina["titulo_pagina"] = await page.title()
-
-        # Extrai os textos dos blocos no navegador e faz o parse numérico no Python (muito mais confiável!)
-        dados_dom = await page.evaluate(r"""() => {
+        quadros_dom = await page.evaluate(r"""() => {
             const blocos = [];
-            const textosVistos = new Set();
-            const seletores = [
-                'mat-card', '.card', '.painel', '.box', 'section', 'table', 'article',
-                '[class*="card"]', '[class*="quadro"]', '[class*="painel"]',
-                '[class*="indicador"]', '[class*="bloco"]', '[class*="chart"]',
-                '[class*="grafico"]', 'app-card', 'div.row > div[class*="col-"]'
-            ].join(', ');
-
-            const elementos = Array.from(document.querySelectorAll(seletores));
-
-            elementos.forEach(el => {
+            const vistos = new Set();
+            const seletores = 'mat-card, .card, .painel, .box, section, table, article, [class*="card"], [class*="quadro"], [class*="indicador"]';
+            
+            document.querySelectorAll(seletores).forEach(el => {
                 const texto = (el.innerText || '').trim();
-                if (texto.length > 5 && texto.length < 3000 && !textosVistos.has(texto)) {
-                    textosVistos.add(texto);
+                if (texto.length > 5 && texto.length < 1500 && !vistos.has(texto)) {
+                    vistos.add(texto);
                     const linhas = texto.split('\n').map(l => l.trim()).filter(l => l.length > 0);
                     if (linhas.length > 0) {
                         blocos.push({
                             titulo: linhas.slice(0, 2).join(' | '),
-                            linhas: linhas,
-                            texto_busca: texto
+                            linhas: linhas
                         });
                     }
                 }
             });
-
-            const textoIntegralLinhas = document.body
-                ? (document.body.innerText || '').split('\n').map(l => l.trim()).filter(l => l.length > 0)
-                : [];
-
-            return {
-                blocos: blocos,
-                linhas_pagina: textoIntegralLinhas
-            };
+            return blocos;
         }""")
 
-        # Processa cada bloco no Python usando REGEX_NUMEROS_BR
-        for c in dados_dom.get("blocos", []):
-            metricas = extrair_metricas_de_texto(c["texto_busca"])
-            if not metricas:
-                continue
-
-            resultado_pagina["quadros_extraidos_tela"].append({
-                "titulo": c["titulo"],
-                "detalhes": c["linhas"],
-                "metricas": metricas
-            })
-
-            chave_card = classificar_endpoint_ou_bloco(c["texto_busca"], mapeamento)
-            if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
-                resultado_pagina["indicadores_mapeados"][chave_card] = {
-                    "rotulo_original": c["titulo"],
-                    "detalhes": c["linhas"],
+        for q in quadros_dom:
+            texto_bloco = " ".join(q["linhas"])
+            metricas = extrair_metricas_de_texto(texto_bloco)
+            if metricas:
+                resultado_pagina["quadros"].append({
+                    "titulo": q["titulo"],
                     "metricas": metricas
-                }
+                })
 
-        # Fallback garantido: se por algum motivo os seletores de card não pegarem, varre as linhas da página
-        linhas_pag = dados_dom.get("linhas_pagina", [])
-        if not resultado_pagina["quadros_extraidos_tela"] and linhas_pag:
-            for idx, linha in enumerate(linhas_pag):
-                metricas_linha = extrair_metricas_de_texto(linha)
-                if metricas_linha:
-                    inicio = max(0, idx - 2)
-                    fim = min(len(linhas_pag), idx + 3)
-                    contexto = linhas_pag[inicio:fim]
-                    texto_ctx = " | ".join(contexto)
-                    resultado_pagina["quadros_extraidos_tela"].append({
-                        "titulo": contexto[0],
-                        "detalhes": contexto,
-                        "metricas": metricas_linha
-                    })
-                    chave_card = classificar_endpoint_ou_bloco(texto_ctx, mapeamento)
-                    if chave_card and chave_card not in resultado_pagina["indicadores_mapeados"]:
-                        resultado_pagina["indicadores_mapeados"][chave_card] = {
-                            "rotulo_original": contexto[0],
-                            "detalhes": contexto,
-                            "metricas": metricas_linha
-                        }
-
-        print(
-            f"   [OK] [{ano}] {slug_ente} | {chave_pagina}: "
-            f"{len(resultado_pagina['series_api'])} APIs, "
-            f"{len(resultado_pagina['indicadores_mapeados'])} indicadores mapeados, "
-            f"{len(resultado_pagina['quadros_extraidos_tela'])} quadros com numeros."
-        )
+        print(f"   [OK] [{ano}] {slug_ente} | {chave_pagina}: {len(resultado_pagina['quadros'])} quadros limpos.")
 
     except Exception as e:
         print(f"   [ERRO] {slug_ente} ({ano}) - {chave_pagina}: {e}")
@@ -380,6 +216,7 @@ async def main():
 
         for ente in entes_alvo:
             slug = ente["slug"]
+            
             if slug not in base_consolidada["entes"]:
                 base_consolidada["entes"][slug] = {
                     "nome": ente["nome"],
@@ -389,23 +226,38 @@ async def main():
 
             for ano in anos_alvo:
                 ano_str = str(ano)
-                print(f"--- Coletando {ente['nome']} ({ano_str}) ---")
-                dados_ano = {}
+                
+                # Verifica se este ano específico já está completo para este ente
+                anos_salvos = base_consolidada["entes"][slug].get("anos", {})
+                if ano_str in anos_salvos and len(anos_salvos[ano_str]) >= len(PAGINAS_ALVO):
+                    print(f"-> [CHECKPOINT] Pulando {ente['nome']} ({ano_str}) - já coletado.")
+                    continue
 
-                for chave_pagina, info_pagina in PAGINAS_ALVO.items():
+                print(f"--- Coletando {ente['nome']} ({ano_str}) ---")
+                
+                if ano_str not in base_consolidada["entes"][slug]["anos"]:
+                    base_consolidada["entes"][slug]["anos"][ano_str] = {}
+
+                dados_ano = base_consolidada["entes"][slug]["anos"][ano_str]
+
+                for chave_pagina, rota in PAGINAS_ALVO.items():
+                    if chave_pagina in dados_ano and dados_ano[chave_pagina].get("quadros"):
+                        continue
+
                     dados_ano[chave_pagina] = await coletar_pagina_json(
-                        context, ente["tipo"], slug, ano, chave_pagina, info_pagina
+                        context, ente["tipo"], slug, ano, chave_pagina, rota
                     )
 
                 base_consolidada["entes"][slug]["anos"][ano_str] = dados_ano
 
-            caminho_ente_json = os.path.join(PASTA_MUNICIPIOS, f"{slug}.json")
-            with open(caminho_ente_json, "w", encoding="utf-8") as f:
-                json.dump(base_consolidada["entes"][slug], f, ensure_ascii=False, indent=2)
+                # SALVAMENTO IMEDIATO: Grava no JSON e no repositório assim que termina cada ano!
+                caminho_ente_json = os.path.join(PASTA_MUNICIPIOS, f"{slug}.json")
+                with open(caminho_ente_json, "w", encoding="utf-8") as f:
+                    json.dump(base_consolidada["entes"][slug], f, ensure_ascii=False, indent=2)
 
-            base_consolidada["ultima_atualizacao"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            with open(ARQUIVO_JSON_CONSOLIDADO, "w", encoding="utf-8") as f:
-                json.dump(base_consolidada, f, ensure_ascii=False)
+                base_consolidada["ultima_atualizacao"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                with open(ARQUIVO_JSON_CONSOLIDADO, "w", encoding="utf-8") as f:
+                    json.dump(base_consolidada, f, ensure_ascii=False)
 
         await browser.close()
 
