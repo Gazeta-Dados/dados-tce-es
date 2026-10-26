@@ -39,9 +39,6 @@ jobs:
   coletar_json:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    defaults:
-      run:
-        working-directory: tce_es
 
     steps:
       - name: 1. Baixar repositório
@@ -63,9 +60,10 @@ jobs:
           MODO_EXECUCAO: ${{ github.event_name == 'schedule' && 'mensal' || inputs.modo_execucao }}
           BLOCO: ${{ github.event_name == 'schedule' && 'todos' || inputs.bloco }}
           GERAR_PRINTS: ${{ github.event_name == 'schedule' && 'false' || inputs.gerar_prints }}
+        working-directory: tce_es
         run: python coletor_tce.py
 
-      - name: 5. Pacote de Prints de 2026 (Para Revista Impresa)
+      - name: 5. Pacote de Prints de 2026 (Para Revista Impressa)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.gerar_prints == true }}
         uses: actions/upload-artifact@v4
         with:
@@ -73,7 +71,8 @@ jobs:
           path: tce_es/prints_edicao_impressa/
           retention-days: 90
 
-      - name: 6. Salvar JSONs atualizados na pasta tce_es/dados
+      - name: 6. Salvar JSONs atualizados no repositório
+        working-directory: tce_es
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Robô TCE-ES"
