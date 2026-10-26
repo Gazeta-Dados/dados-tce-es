@@ -7,6 +7,7 @@ from datetime import datetime
 from playwright.async_api import async_playwright
 
 MODO_EXECUCAO = os.getenv("MODO_EXECUCAO", "mensal")
+BLOCO_ID = os.getenv("BLOCO", "todos")  # Pode ser '1', '2', '3', '4' ou 'todos'
 GERAR_PRINTS = os.getenv("GERAR_PRINTS", "false").lower() == "true"
 
 ANO_ATUAL = datetime.now().year
@@ -193,9 +194,29 @@ async def main():
         ]
     elif MODO_EXECUCAO == "historico_completo":
         anos_alvo = list(range(2019, ANO_ATUAL + 1))
-        entes_alvo = [{"tipo": "Estado", "nome": "Espírito Santo", "slug": "estado-es"}] + [
-            {"tipo": "Município", "nome": m, "slug": gerar_slug(m)} for m in MUNICIPIOS_ES
-        ]
+        
+        # Divide os 78 municípios em 4 blocos de ~20 cidades + o Estado no Bloco 1
+        total_mun = len(MUNICIPIOS_ES)
+        tamanho_bloco = total_mun // 4
+        
+        mun_selecionados = MUNICIPIOS_ES
+        if BLOCO_ID == "1":
+            mun_selecionados = MUNICIPIOS_ES[:tamanho_bloco]
+        elif BLOCO_ID == "2":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco:tamanho_bloco*2]
+        elif BLOCO_ID == "3":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*2:tamanho_bloco*3]
+        elif BLOCO_ID == "4":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*3:]
+
+        entes_alvo = []
+        if BLOCO_ID in ["1", "todos"]:
+            entes_alvo.append({"tipo": "Estado", "nome": "Espírito Santo", "slug": "estado-es"})
+            
+        for m in mun_selecionados:
+            entes_alvo.append({"tipo": "Município", "nome": m, "slug": gerar_slug(m)})
+            
+        print(f"--- EXECUTANDO BLOCO: {BLOCO_ID} ({len(mun_selecionados)} municipios selecionados) ---")
     else:
         anos_alvo = [ANO_ATUAL]
         entes_alvo = [{"tipo": "Estado", "nome": "Espírito Santo", "slug": "estado-es"}] + [
@@ -227,10 +248,9 @@ async def main():
             for ano in anos_alvo:
                 ano_str = str(ano)
                 
-                # Verifica se este ano específico já está completo para este ente
                 anos_salvos = base_consolidada["entes"][slug].get("anos", {})
                 if ano_str in anos_salvos and len(anos_salvos[ano_str]) >= len(PAGINAS_ALVO):
-                    print(f"-> [CHECKPOINT] Pulando {ente['nome']} ({ano_str}) - já coletado.")
+                    print(f"-> [CHECKPOINT] Pulando {ente['nome']} ({ano_str}) - ja coletado.")
                     continue
 
                 print(f"--- Coletando {ente['nome']} ({ano_str}) ---")
@@ -250,7 +270,6 @@ async def main():
 
                 base_consolidada["entes"][slug]["anos"][ano_str] = dados_ano
 
-                # SALVAMENTO IMEDIATO: Grava no JSON e no repositório assim que termina cada ano!
                 caminho_ente_json = os.path.join(PASTA_MUNICIPIOS, f"{slug}.json")
                 with open(caminho_ente_json, "w", encoding="utf-8") as f:
                     json.dump(base_consolidada["entes"][slug], f, ensure_ascii=False, indent=2)
