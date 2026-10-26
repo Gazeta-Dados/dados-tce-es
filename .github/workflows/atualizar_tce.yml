@@ -60,7 +60,6 @@ jobs:
           MODO_EXECUCAO: ${{ github.event_name == 'schedule' && 'mensal' || inputs.modo_execucao }}
           BLOCO: ${{ github.event_name == 'schedule' && 'todos' || inputs.bloco }}
           GERAR_PRINTS: ${{ github.event_name == 'schedule' && 'false' || inputs.gerar_prints }}
-        working-directory: tce_es
         run: python coletor_tce.py
 
       - name: 5. Pacote de Prints de 2026 (Para Revista Impressa)
@@ -68,11 +67,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: prints-tce-es-2026-bloco-${{ inputs.bloco }}
-          path: tce_es/prints_edicao_impressa/
+          path: prints_edicao_impressa/
           retention-days: 90
 
       - name: 6. Salvar JSONs atualizados no repositório
-        working-directory: tce_es
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Robô TCE-ES"
