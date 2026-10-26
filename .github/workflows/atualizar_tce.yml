@@ -1,22 +1,31 @@
-name: Coleta e Atualização TCE-ES (JSON)
+name: Robô TCE-ES (JSON + Prints 2026)
 
 on:
-  # Agendamento automático: Todo dia 5 do mês às 06:00 BRT (sem prints, sobrescreve ano atual)
   schedule:
     - cron: '0 9 5 * *'
 
-  # Disparo manual pelo botão "Run workflow"
   workflow_dispatch:
     inputs:
       modo_execucao:
         description: 'Qual escopo você quer coletar?'
         required: true
-        default: 'teste_rapido'
+        default: 'historico_completo'
         type: choice
         options:
           - teste_rapido
           - historico_completo
           - mensal
+      bloco:
+        description: 'Qual bloco de municípios rodar (se histórico completo)?'
+        required: true
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - 'todos'
       gerar_prints:
         description: 'Gerar prints de 2026 para a revista impressa?'
         required: true
@@ -30,6 +39,9 @@ jobs:
   coletar_json:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    defaults:
+      run:
+        working-directory: tce_es
 
     steps:
       - name: 1. Baixar repositório
@@ -49,21 +61,23 @@ jobs:
       - name: 4. Executar o Robô Coletor (JSON)
         env:
           MODO_EXECUCAO: ${{ github.event_name == 'schedule' && 'mensal' || inputs.modo_execucao }}
+          BLOCO: ${{ github.event_name == 'schedule' && 'todos' || inputs.bloco }}
           GERAR_PRINTS: ${{ github.event_name == 'schedule' && 'false' || inputs.gerar_prints }}
         run: python coletor_tce.py
 
-      - name: 5. Pacote de Prints de 2026 (Para Revista Impressa)
+      - name: 5. Pacote de Prints de 2026 (Para Revista Impresa)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.gerar_prints == true }}
         uses: actions/upload-artifact@v4
         with:
-          name: prints-tce-es-2026-revista-impressa
-          path: prints_edicao_impressa/
+          name: prints-tce-es-2026-bloco-${{ inputs.bloco }}
+          path: tce_es/prints_edicao_impressa/
           retention-days: 90
 
-      - name: 6. Salvar JSONs atualizados no repositório
+      - name: 6. Salvar JSONs atualizados na pasta tce_es/dados
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Robô TCE-ES"
+          git pull --rebase origin ${{ github.ref_name }} || true
           git add dados/
-          git diff --staged --quiet || git commit -m "📊 Atualização JSON TCE-ES ($(date +'%Y-%m-%d'))"
+          git diff --staged --quiet || git commit -m "📊 Atualização JSON TCE-ES (Bloco ${{ inputs.bloco }}) ($(date +'%Y-%m-%d'))"
           git push
