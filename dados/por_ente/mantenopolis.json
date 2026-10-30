@@ -1,0 +1,5375 @@
+{
+  "nome": "Mantenópolis",
+  "tipo": "Município",
+  "anos": {
+    "2019": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2017",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2017 | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 32.0,
+                "formatado": "032",
+                "unidade": "numero"
+              },
+              {
+                "valor": 83.0,
+                "formatado": "83",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 26.0,
+                "formatado": "026",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "08",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 18,59%",
+            "metricas": [
+              {
+                "valor": 18.59,
+                "formatado": "18,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "18,59% | 15%",
+            "metricas": [
+              {
+                "valor": 18.59,
+                "formatado": "18,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,94%",
+            "metricas": [
+              {
+                "valor": 29.94,
+                "formatado": "29,94%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,94% | 25%",
+            "metricas": [
+              {
+                "valor": 29.94,
+                "formatado": "29,94%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 54,30%",
+            "metricas": [
+              {
+                "valor": 54.3,
+                "formatado": "54,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "54,30% | 54%",
+            "metricas": [
+              {
+                "valor": 54.3,
+                "formatado": "54,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 51,00%",
+            "metricas": [
+              {
+                "valor": 51.0,
+                "formatado": "51,00%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "51,00% | 48,6%",
+            "metricas": [
+              {
+                "valor": 51.0,
+                "formatado": "51,00%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 3,30%",
+            "metricas": [
+              {
+                "valor": 3.3,
+                "formatado": "3,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "3,30% | 5,4%",
+            "metricas": [
+              {
+                "valor": 3.3,
+                "formatado": "3,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Índice de Solvência | 1,27",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "1,27 | 0,3",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Previdência - Fundo Financeiro | R$ 2,02B",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "R$ 2,02B | Necessidade de cobertura financeira nos próximos 75 anos",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 46,95M",
+            "metricas": [
+              {
+                "valor": 46.95,
+                "formatado": "R$ 46,95",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.06,
+                "formatado": "R$3,06",
+                "unidade": "R$"
+              },
+              {
+                "valor": 2.85,
+                "formatado": "R$2,85",
+                "unidade": "R$"
+              },
+              {
+                "valor": 58.0,
+                "formatado": "58",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 467.92,
+                "formatado": "467,92",
+                "unidade": "numero"
+              },
+              {
+                "valor": 268.7,
+                "formatado": "268,70",
+                "unidade": "numero"
+              },
+              {
+                "valor": 751.22,
+                "formatado": "751,22",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 6.33,
+                "formatado": "6,33",
+                "unidade": "numero"
+              },
+              {
+                "valor": 563.2,
+                "formatado": "563,20",
+                "unidade": "numero"
+              },
+              {
+                "valor": 970.22,
+                "formatado": "970,22",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.08,
+                "formatado": "2,08",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 12.38,
+                "formatado": "12,38",
+                "unidade": "numero"
+              },
+              {
+                "valor": 678.62,
+                "formatado": "678,62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.16,
+                "formatado": "2,16",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 45,08M",
+            "metricas": [
+              {
+                "valor": 45.08,
+                "formatado": "R$ 45,08",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.36,
+                "formatado": "0,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.0,
+                "formatado": "51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.94,
+                "formatado": "R$2,94",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.1,
+                "formatado": "R$3,10",
+                "unidade": "R$"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 302.51,
+                "formatado": "302,51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.64,
+                "formatado": "1,64",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.72,
+                "formatado": "2,72",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.56,
+                "formatado": "4,56",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -1,82%",
+            "metricas": [
+              {
+                "valor": -1.82,
+                "formatado": "-1,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 97,84%",
+            "metricas": [
+              {
+                "valor": 97.84,
+                "formatado": "97,84%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 10.67,
+                "formatado": "R$10,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 10.44,
+                "formatado": "R$10,44",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2020": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2018 | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 24.0,
+                "formatado": "024",
+                "unidade": "numero"
+              },
+              {
+                "valor": 16.0,
+                "formatado": "16",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 23.0,
+                "formatado": "023",
+                "unidade": "numero"
+              },
+              {
+                "valor": 28.0,
+                "formatado": "28",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 16,35%",
+            "metricas": [
+              {
+                "valor": 16.35,
+                "formatado": "16,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "16,35% | 15%",
+            "metricas": [
+              {
+                "valor": 16.35,
+                "formatado": "16,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 28,08%",
+            "metricas": [
+              {
+                "valor": 28.08,
+                "formatado": "28,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "28,08% | 25%",
+            "metricas": [
+              {
+                "valor": 28.08,
+                "formatado": "28,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 63,70%",
+            "metricas": [
+              {
+                "valor": 63.7,
+                "formatado": "63,70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "63,70% | 54%",
+            "metricas": [
+              {
+                "valor": 63.7,
+                "formatado": "63,70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 60,34%",
+            "metricas": [
+              {
+                "valor": 60.34,
+                "formatado": "60,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "60,34% | 48,6%",
+            "metricas": [
+              {
+                "valor": 60.34,
+                "formatado": "60,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 3,35%",
+            "metricas": [
+              {
+                "valor": 3.35,
+                "formatado": "3,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "3,35% | 5,4%",
+            "metricas": [
+              {
+                "valor": 3.35,
+                "formatado": "3,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -1,82%",
+            "metricas": [
+              {
+                "valor": -1.82,
+                "formatado": "-1,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-1,82% | 108%",
+            "metricas": [
+              {
+                "valor": -1.82,
+                "formatado": "-1,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 49,05M",
+            "metricas": [
+              {
+                "valor": 49.05,
+                "formatado": "R$ 49,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.33,
+                "formatado": "0,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 53.0,
+                "formatado": "53",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.16,
+                "formatado": "R$3,16",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.05,
+                "formatado": "R$3,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 59.0,
+                "formatado": "59",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 609.01,
+                "formatado": "609,01",
+                "unidade": "numero"
+              },
+              {
+                "valor": 464.43,
+                "formatado": "464,43",
+                "unidade": "numero"
+              },
+              {
+                "valor": 782.3,
+                "formatado": "782,30",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 6.07,
+                "formatado": "6,07",
+                "unidade": "numero"
+              },
+              {
+                "valor": 668.06,
+                "formatado": "668,06",
+                "unidade": "numero"
+              },
+              {
+                "valor": 356.61,
+                "formatado": "356,61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 189.03,
+                "formatado": "189,03",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 11.85,
+                "formatado": "11,85",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.69,
+                "formatado": "1,69",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 45,41M",
+            "metricas": [
+              {
+                "valor": 45.41,
+                "formatado": "R$ 45,41",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 52.0,
+                "formatado": "52",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.93,
+                "formatado": "R$2,93",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.31,
+                "formatado": "R$3,31",
+                "unidade": "R$"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 256.59,
+                "formatado": "256,59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 482.7,
+                "formatado": "482,70",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.99,
+                "formatado": "3,99",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.26,
+                "formatado": "4,26",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -1,82%",
+            "metricas": [
+              {
+                "valor": -1.82,
+                "formatado": "-1,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 98,26%",
+            "metricas": [
+              {
+                "valor": 98.26,
+                "formatado": "98,26%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 7.72,
+                "formatado": "R$7,72",
+                "unidade": "R$"
+              },
+              {
+                "valor": 7.58,
+                "formatado": "R$7,58",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2021": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2019 | 2020",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 89.0,
+                "formatado": "089",
+                "unidade": "numero"
+              },
+              {
+                "valor": 92.0,
+                "formatado": "92",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 54.0,
+                "formatado": "054",
+                "unidade": "numero"
+              },
+              {
+                "valor": 35.0,
+                "formatado": "35",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 15,32%",
+            "metricas": [
+              {
+                "valor": 15.32,
+                "formatado": "15,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "15,32% | 15%",
+            "metricas": [
+              {
+                "valor": 15.32,
+                "formatado": "15,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 26,05%",
+            "metricas": [
+              {
+                "valor": 26.05,
+                "formatado": "26,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "26,05% | 25%",
+            "metricas": [
+              {
+                "valor": 26.05,
+                "formatado": "26,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 52,00%",
+            "metricas": [
+              {
+                "valor": 52.0,
+                "formatado": "52,00%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "52,00% | 54%",
+            "metricas": [
+              {
+                "valor": 52.0,
+                "formatado": "52,00%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 49,44%",
+            "metricas": [
+              {
+                "valor": 49.44,
+                "formatado": "49,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "49,44% | 48,6%",
+            "metricas": [
+              {
+                "valor": 49.44,
+                "formatado": "49,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,56%",
+            "metricas": [
+              {
+                "valor": 2.56,
+                "formatado": "2,56%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,56% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.56,
+                "formatado": "2,56%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 86,37%",
+            "metricas": [
+              {
+                "valor": 86.37,
+                "formatado": "86,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "86,37% | 85%",
+            "metricas": [
+              {
+                "valor": 86.37,
+                "formatado": "86,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -16,37%",
+            "metricas": [
+              {
+                "valor": -16.37,
+                "formatado": "-16,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-16,37% | 108%",
+            "metricas": [
+              {
+                "valor": -16.37,
+                "formatado": "-16,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 58,01M",
+            "metricas": [
+              {
+                "valor": 58.01,
+                "formatado": "R$ 58,01",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.35,
+                "formatado": "0,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 53.0,
+                "formatado": "53",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.71,
+                "formatado": "R$3,71",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.5,
+                "formatado": "R$3,50",
+                "unidade": "R$"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 586.88,
+                "formatado": "586,88",
+                "unidade": "numero"
+              },
+              {
+                "valor": 485.37,
+                "formatado": "485,37",
+                "unidade": "numero"
+              },
+              {
+                "valor": 935.85,
+                "formatado": "935,85",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 7.91,
+                "formatado": "7,91",
+                "unidade": "numero"
+              },
+              {
+                "valor": 774.55,
+                "formatado": "774,55",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.17,
+                "formatado": "1,17",
+                "unidade": "numero"
+              },
+              {
+                "valor": 272.85,
+                "formatado": "272,85",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 15.76,
+                "formatado": "15,76",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.47,
+                "formatado": "2,47",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 49,44M",
+            "metricas": [
+              {
+                "valor": 49.44,
+                "formatado": "R$ 49,44",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.35,
+                "formatado": "0,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 52.0,
+                "formatado": "52",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.16,
+                "formatado": "R$3,16",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.42,
+                "formatado": "R$3,42",
+                "unidade": "R$"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 340.2,
+                "formatado": "340,20",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.97,
+                "formatado": "1,97",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.65,
+                "formatado": "1,65",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.98,
+                "formatado": "5,98",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -16,37%",
+            "metricas": [
+              {
+                "valor": -16.37,
+                "formatado": "-16,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 82,39%",
+            "metricas": [
+              {
+                "valor": 82.39,
+                "formatado": "82,39%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 9.76,
+                "formatado": "R$9,76",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.04,
+                "formatado": "R$8,04",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2022": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2020",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2020 | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 49.0,
+                "formatado": "049",
+                "unidade": "numero"
+              },
+              {
+                "valor": 59.0,
+                "formatado": "59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 32.0,
+                "formatado": "032",
+                "unidade": "numero"
+              },
+              {
+                "valor": 37.0,
+                "formatado": "37",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 17,29%",
+            "metricas": [
+              {
+                "valor": 17.29,
+                "formatado": "17,29%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "17,29% | 15%",
+            "metricas": [
+              {
+                "valor": 17.29,
+                "formatado": "17,29%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,38%",
+            "metricas": [
+              {
+                "valor": 29.38,
+                "formatado": "29,38%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,38% | 25%",
+            "metricas": [
+              {
+                "valor": 29.38,
+                "formatado": "29,38%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 49,45%",
+            "metricas": [
+              {
+                "valor": 49.45,
+                "formatado": "49,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "49,45% | 54%",
+            "metricas": [
+              {
+                "valor": 49.45,
+                "formatado": "49,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 46,77%",
+            "metricas": [
+              {
+                "valor": 46.77,
+                "formatado": "46,77%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "46,77% | 48,6%",
+            "metricas": [
+              {
+                "valor": 46.77,
+                "formatado": "46,77%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,68%",
+            "metricas": [
+              {
+                "valor": 2.68,
+                "formatado": "2,68%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,68% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.68,
+                "formatado": "2,68%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 90,24%",
+            "metricas": [
+              {
+                "valor": 90.24,
+                "formatado": "90,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "90,24% | 85%",
+            "metricas": [
+              {
+                "valor": 90.24,
+                "formatado": "90,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -8,05%",
+            "metricas": [
+              {
+                "valor": -8.05,
+                "formatado": "-8,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-8,05% | 108%",
+            "metricas": [
+              {
+                "valor": -8.05,
+                "formatado": "-8,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 64,76M",
+            "metricas": [
+              {
+                "valor": 64.76,
+                "formatado": "R$ 64,76",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.32,
+                "formatado": "0,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 61.0,
+                "formatado": "61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.07,
+                "formatado": "R$5,07",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.2,
+                "formatado": "R$4,20",
+                "unidade": "R$"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 819.02,
+                "formatado": "819,02",
+                "unidade": "numero"
+              },
+              {
+                "valor": 468.85,
+                "formatado": "468,85",
+                "unidade": "numero"
+              },
+              {
+                "valor": 963.13,
+                "formatado": "963,13",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 7.25,
+                "formatado": "7,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.07,
+                "formatado": "1,07",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.29,
+                "formatado": "2,29",
+                "unidade": "numero"
+              },
+              {
+                "valor": 228.44,
+                "formatado": "228,44",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 19.83,
+                "formatado": "19,83",
+                "unidade": "numero"
+              },
+              {
+                "valor": 960.02,
+                "formatado": "960,02",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.89,
+                "formatado": "2,89",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 62,51M",
+            "metricas": [
+              {
+                "valor": 62.51,
+                "formatado": "R$ 62,51",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.35,
+                "formatado": "0,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 59.0,
+                "formatado": "59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.89,
+                "formatado": "R$4,89",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 45.0,
+                "formatado": "45",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 433.57,
+                "formatado": "433,57",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.46,
+                "formatado": "1,46",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.59,
+                "formatado": "3,59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.33,
+                "formatado": "6,33",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -8,05%",
+            "metricas": [
+              {
+                "valor": -8.05,
+                "formatado": "-8,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 91,72%",
+            "metricas": [
+              {
+                "valor": 91.72,
+                "formatado": "91,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 9.71,
+                "formatado": "R$9,71",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.9,
+                "formatado": "R$8,90",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2023": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2021 | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 48.0,
+                "formatado": "048",
+                "unidade": "numero"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 34.0,
+                "formatado": "034",
+                "unidade": "numero"
+              },
+              {
+                "valor": 81.0,
+                "formatado": "81",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 15,54%",
+            "metricas": [
+              {
+                "valor": 15.54,
+                "formatado": "15,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "15,54% | 15%",
+            "metricas": [
+              {
+                "valor": 15.54,
+                "formatado": "15,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 31,63%",
+            "metricas": [
+              {
+                "valor": 31.63,
+                "formatado": "31,63%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "31,63% | 25%",
+            "metricas": [
+              {
+                "valor": 31.63,
+                "formatado": "31,63%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 50,08%",
+            "metricas": [
+              {
+                "valor": 50.08,
+                "formatado": "50,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "50,08% | 54%",
+            "metricas": [
+              {
+                "valor": 50.08,
+                "formatado": "50,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 47,45%",
+            "metricas": [
+              {
+                "valor": 47.45,
+                "formatado": "47,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "47,45% | 48,6%",
+            "metricas": [
+              {
+                "valor": 47.45,
+                "formatado": "47,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,62%",
+            "metricas": [
+              {
+                "valor": 2.62,
+                "formatado": "2,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,62% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.62,
+                "formatado": "2,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 89,31%",
+            "metricas": [
+              {
+                "valor": 89.31,
+                "formatado": "89,31%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "89,31% | 85%",
+            "metricas": [
+              {
+                "valor": 89.31,
+                "formatado": "89,31%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -8,80%",
+            "metricas": [
+              {
+                "valor": -8.8,
+                "formatado": "-8,80%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-8,80% | 108%",
+            "metricas": [
+              {
+                "valor": -8.8,
+                "formatado": "-8,80%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 72,34M",
+            "metricas": [
+              {
+                "valor": 72.34,
+                "formatado": "R$ 72,34",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.31,
+                "formatado": "0,31%",
+                "unidade": "%"
+              },
+              {
+                "valor": 61.0,
+                "formatado": "61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.66,
+                "formatado": "R$5,66",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 58.0,
+                "formatado": "58",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 757.19,
+                "formatado": "757,19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 491.65,
+                "formatado": "491,65",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.37,
+                "formatado": "1,37",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 10.03,
+                "formatado": "10,03",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.32,
+                "formatado": "1,32",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.26,
+                "formatado": "7,26",
+                "unidade": "numero"
+              },
+              {
+                "valor": 246.67,
+                "formatado": "246,67",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 20.56,
+                "formatado": "20,56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 370.0,
+                "formatado": "370,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.21,
+                "formatado": "2,21",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 70,22M",
+            "metricas": [
+              {
+                "valor": 70.22,
+                "formatado": "R$ 70,22",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.33,
+                "formatado": "0,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 58.0,
+                "formatado": "58",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.5,
+                "formatado": "R$5,50",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.6,
+                "formatado": "R$5,60",
+                "unidade": "R$"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 502.13,
+                "formatado": "502,13",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.21,
+                "formatado": "1,21",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.96,
+                "formatado": "4,96",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.92,
+                "formatado": "8,92",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -8,80%",
+            "metricas": [
+              {
+                "valor": -8.8,
+                "formatado": "-8,80%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 106,30%",
+            "metricas": [
+              {
+                "valor": 106.3,
+                "formatado": "106,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 10.01,
+                "formatado": "R$10,01",
+                "unidade": "R$"
+              },
+              {
+                "valor": 10.64,
+                "formatado": "R$10,64",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2024": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2022 | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 53.0,
+                "formatado": "053",
+                "unidade": "numero"
+              },
+              {
+                "valor": 31.0,
+                "formatado": "31",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 39.0,
+                "formatado": "039",
+                "unidade": "numero"
+              },
+              {
+                "valor": 36.0,
+                "formatado": "36",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 14,69%",
+            "metricas": [
+              {
+                "valor": 14.69,
+                "formatado": "14,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "14,69% | 15%",
+            "metricas": [
+              {
+                "valor": 14.69,
+                "formatado": "14,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 33,90%",
+            "metricas": [
+              {
+                "valor": 33.9,
+                "formatado": "33,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "33,90% | 25%",
+            "metricas": [
+              {
+                "valor": 33.9,
+                "formatado": "33,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 51,19%",
+            "metricas": [
+              {
+                "valor": 51.19,
+                "formatado": "51,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "51,19% | 54%",
+            "metricas": [
+              {
+                "valor": 51.19,
+                "formatado": "51,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 48,58%",
+            "metricas": [
+              {
+                "valor": 48.58,
+                "formatado": "48,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "48,58% | 48,6%",
+            "metricas": [
+              {
+                "valor": 48.58,
+                "formatado": "48,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,61%",
+            "metricas": [
+              {
+                "valor": 2.61,
+                "formatado": "2,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,61% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.61,
+                "formatado": "2,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 94,93%",
+            "metricas": [
+              {
+                "valor": 94.93,
+                "formatado": "94,93%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "94,93% | 85%",
+            "metricas": [
+              {
+                "valor": 94.93,
+                "formatado": "94,93%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -2,37%",
+            "metricas": [
+              {
+                "valor": -2.37,
+                "formatado": "-2,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-2,37% | 108%",
+            "metricas": [
+              {
+                "valor": -2.37,
+                "formatado": "-2,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 80,82M",
+            "metricas": [
+              {
+                "valor": 80.82,
+                "formatado": "R$ 80,82",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 62.0,
+                "formatado": "62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.14,
+                "formatado": "R$6,14",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.99,
+                "formatado": "R$4,99",
+                "unidade": "R$"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 694.19,
+                "formatado": "694,19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 395.63,
+                "formatado": "395,63",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.44,
+                "formatado": "2,44",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 10.39,
+                "formatado": "10,39",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.48,
+                "formatado": "1,48",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.23,
+                "formatado": "1,23",
+                "unidade": "numero"
+              },
+              {
+                "valor": 265.51,
+                "formatado": "265,51",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 23.42,
+                "formatado": "23,42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.46,
+                "formatado": "2,46",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 84,10M",
+            "metricas": [
+              {
+                "valor": 84.1,
+                "formatado": "R$ 84,10",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.33,
+                "formatado": "0,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 59.0,
+                "formatado": "59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.38,
+                "formatado": "R$6,38",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.29,
+                "formatado": "R$6,29",
+                "unidade": "R$"
+              },
+              {
+                "valor": 45.0,
+                "formatado": "45",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 575.5,
+                "formatado": "575,50",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.65,
+                "formatado": "1,65",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.11,
+                "formatado": "8,11",
+                "unidade": "numero"
+              },
+              {
+                "valor": 10.23,
+                "formatado": "10,23",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -2,37%",
+            "metricas": [
+              {
+                "valor": -2.37,
+                "formatado": "-2,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 101,95%",
+            "metricas": [
+              {
+                "valor": 101.95,
+                "formatado": "101,95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 11.32,
+                "formatado": "R$11,32",
+                "unidade": "R$"
+              },
+              {
+                "valor": 11.54,
+                "formatado": "R$11,54",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2025": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2023 | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 31.0,
+                "formatado": "031",
+                "unidade": "numero"
+              },
+              {
+                "valor": 80.0,
+                "formatado": "80",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 19.0,
+                "formatado": "019",
+                "unidade": "numero"
+              },
+              {
+                "valor": 39.0,
+                "formatado": "39",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 17,75%",
+            "metricas": [
+              {
+                "valor": 17.75,
+                "formatado": "17,75%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "17,75% | 15%",
+            "metricas": [
+              {
+                "valor": 17.75,
+                "formatado": "17,75%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 27,16%",
+            "metricas": [
+              {
+                "valor": 27.16,
+                "formatado": "27,16%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "27,16% | 25%",
+            "metricas": [
+              {
+                "valor": 27.16,
+                "formatado": "27,16%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 48,73%",
+            "metricas": [
+              {
+                "valor": 48.73,
+                "formatado": "48,73%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "48,73% | 54%",
+            "metricas": [
+              {
+                "valor": 48.73,
+                "formatado": "48,73%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 46,36%",
+            "metricas": [
+              {
+                "valor": 46.36,
+                "formatado": "46,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "46,36% | 48,6%",
+            "metricas": [
+              {
+                "valor": 46.36,
+                "formatado": "46,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,37%",
+            "metricas": [
+              {
+                "valor": 2.37,
+                "formatado": "2,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,37% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.37,
+                "formatado": "2,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 85,59%",
+            "metricas": [
+              {
+                "valor": 85.59,
+                "formatado": "85,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "85,59% | 85%",
+            "metricas": [
+              {
+                "valor": 85.59,
+                "formatado": "85,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -9,54%",
+            "metricas": [
+              {
+                "valor": -9.54,
+                "formatado": "-9,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-9,54% | 108%",
+            "metricas": [
+              {
+                "valor": -9.54,
+                "formatado": "-9,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 95,77M",
+            "metricas": [
+              {
+                "valor": 95.77,
+                "formatado": "R$ 95,77",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.33,
+                "formatado": "0,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 62.0,
+                "formatado": "62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.29,
+                "formatado": "R$7,29",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.77,
+                "formatado": "R$5,77",
+                "unidade": "R$"
+              },
+              {
+                "valor": 44.0,
+                "formatado": "44",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 689.12,
+                "formatado": "689,12",
+                "unidade": "numero"
+              },
+              {
+                "valor": 588.36,
+                "formatado": "588,36",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.03,
+                "formatado": "2,03",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 14.25,
+                "formatado": "14,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.79,
+                "formatado": "1,79",
+                "unidade": "numero"
+              },
+              {
+                "valor": 93.31,
+                "formatado": "93,31",
+                "unidade": "numero"
+              },
+              {
+                "valor": 318.49,
+                "formatado": "318,49",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 25.35,
+                "formatado": "25,35",
+                "unidade": "numero"
+              },
+              {
+                "valor": 48.25,
+                "formatado": "48,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.52,
+                "formatado": "2,52",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 84,94M",
+            "metricas": [
+              {
+                "valor": 84.94,
+                "formatado": "R$ 84,94",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.32,
+                "formatado": "0,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 63.0,
+                "formatado": "63",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.47,
+                "formatado": "R$6,47",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.37,
+                "formatado": "R$6,37",
+                "unidade": "R$"
+              },
+              {
+                "valor": 49.0,
+                "formatado": "49",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 892.45,
+                "formatado": "892,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.94,
+                "formatado": "1,94",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.05,
+                "formatado": "4,05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.02,
+                "formatado": "6,02",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -9,54%",
+            "metricas": [
+              {
+                "valor": -9.54,
+                "formatado": "-9,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 88,36%",
+            "metricas": [
+              {
+                "valor": 88.36,
+                "formatado": "88,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 14.86,
+                "formatado": "R$14,86",
+                "unidade": "R$"
+              },
+              {
+                "valor": 13.13,
+                "formatado": "R$13,13",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2026": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2024 | 2025",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 18,45%",
+            "metricas": [
+              {
+                "valor": 18.45,
+                "formatado": "18,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "18,45% | 15%",
+            "metricas": [
+              {
+                "valor": 18.45,
+                "formatado": "18,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 27,26%",
+            "metricas": [
+              {
+                "valor": 27.26,
+                "formatado": "27,26%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "27,26% | 25%",
+            "metricas": [
+              {
+                "valor": 27.26,
+                "formatado": "27,26%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 51,68%",
+            "metricas": [
+              {
+                "valor": 51.68,
+                "formatado": "51,68%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "51,68% | 54%",
+            "metricas": [
+              {
+                "valor": 51.68,
+                "formatado": "51,68%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 49,25%",
+            "metricas": [
+              {
+                "valor": 49.25,
+                "formatado": "49,25%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "49,25% | 48,6%",
+            "metricas": [
+              {
+                "valor": 49.25,
+                "formatado": "49,25%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,43%",
+            "metricas": [
+              {
+                "valor": 2.43,
+                "formatado": "2,43%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,43% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.43,
+                "formatado": "2,43%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 90,15%",
+            "metricas": [
+              {
+                "valor": 90.15,
+                "formatado": "90,15%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "90,15% | 85%",
+            "metricas": [
+              {
+                "valor": 90.15,
+                "formatado": "90,15%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -18,69%",
+            "metricas": [
+              {
+                "valor": -18.69,
+                "formatado": "-18,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-18,69% | 108%",
+            "metricas": [
+              {
+                "valor": -18.69,
+                "formatado": "-18,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/visaoGeral_2026.jpg"
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 77,16M",
+            "metricas": [
+              {
+                "valor": 77.16,
+                "formatado": "R$ 77,16",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.32,
+                "formatado": "0,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 64.0,
+                "formatado": "64",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.89,
+                "formatado": "R$5,89",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.8,
+                "formatado": "R$4,80",
+                "unidade": "R$"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 672.95,
+                "formatado": "672,95",
+                "unidade": "numero"
+              },
+              {
+                "valor": 427.04,
+                "formatado": "427,04",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.64,
+                "formatado": "1,64",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 11.27,
+                "formatado": "11,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.16,
+                "formatado": "2,16",
+                "unidade": "numero"
+              },
+              {
+                "valor": 85.51,
+                "formatado": "85,51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 342.71,
+                "formatado": "342,71",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 19.73,
+                "formatado": "19,73",
+                "unidade": "numero"
+              },
+              {
+                "valor": 769.83,
+                "formatado": "769,83",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.75,
+                "formatado": "2,75",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/receitas_2026.jpg"
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 76,25M",
+            "metricas": [
+              {
+                "valor": 76.25,
+                "formatado": "R$ 76,25",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.36,
+                "formatado": "0,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.82,
+                "formatado": "R$5,82",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.05,
+                "formatado": "R$5,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 36.0,
+                "formatado": "36",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 799.98,
+                "formatado": "799,98",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.25,
+                "formatado": "1,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.34,
+                "formatado": "3,34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.88,
+                "formatado": "5,88",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/despesas_2026.jpg"
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -18,69%",
+            "metricas": [
+              {
+                "valor": -18.69,
+                "formatado": "-18,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/dividaConsolidada_2026.jpg"
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 92,90%",
+            "metricas": [
+              {
+                "valor": 92.9,
+                "formatado": "92,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 12.68,
+                "formatado": "R$12,68",
+                "unidade": "R$"
+              },
+              {
+                "valor": 11.78,
+                "formatado": "R$11,78",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/fundeb_2026.jpg"
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/mantenopolis/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": [],
+        "print_auditoria": "prints_edicao_impressa/mantenopolis/receitaCorrenteLiquida_2026.jpg"
+      }
+    }
+  }
+}

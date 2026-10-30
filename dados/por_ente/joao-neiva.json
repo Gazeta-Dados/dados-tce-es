@@ -1,0 +1,5375 @@
+{
+  "nome": "João Neiva",
+  "tipo": "Município",
+  "anos": {
+    "2019": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2017",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2017 | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 33.0,
+                "formatado": "033",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 29.0,
+                "formatado": "029",
+                "unidade": "numero"
+              },
+              {
+                "valor": 23.0,
+                "formatado": "23",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 20,54%",
+            "metricas": [
+              {
+                "valor": 20.54,
+                "formatado": "20,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "20,54% | 15%",
+            "metricas": [
+              {
+                "valor": 20.54,
+                "formatado": "20,54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 24,32%",
+            "metricas": [
+              {
+                "valor": 24.32,
+                "formatado": "24,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "24,32% | 25%",
+            "metricas": [
+              {
+                "valor": 24.32,
+                "formatado": "24,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 43,83%",
+            "metricas": [
+              {
+                "valor": 43.83,
+                "formatado": "43,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "43,83% | 54%",
+            "metricas": [
+              {
+                "valor": 43.83,
+                "formatado": "43,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 41,53%",
+            "metricas": [
+              {
+                "valor": 41.53,
+                "formatado": "41,53%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "41,53% | 48,6%",
+            "metricas": [
+              {
+                "valor": 41.53,
+                "formatado": "41,53%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,30%",
+            "metricas": [
+              {
+                "valor": 2.3,
+                "formatado": "2,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,30% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.3,
+                "formatado": "2,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Índice de Solvência | 1,27",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "1,27 | 0,3",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Previdência - Fundo Financeiro | R$ 2,02B",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "R$ 2,02B | Necessidade de cobertura financeira nos próximos 75 anos",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 72,84M",
+            "metricas": [
+              {
+                "valor": 72.84,
+                "formatado": "R$ 72,84",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.52,
+                "formatado": "0,52%",
+                "unidade": "%"
+              },
+              {
+                "valor": 38.0,
+                "formatado": "38",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.37,
+                "formatado": "R$4,37",
+                "unidade": "R$"
+              },
+              {
+                "valor": 2.85,
+                "formatado": "R$2,85",
+                "unidade": "R$"
+              },
+              {
+                "valor": 12.0,
+                "formatado": "12",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 270.45,
+                "formatado": "270,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 406.88,
+                "formatado": "406,88",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.49,
+                "formatado": "2,49",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 8.67,
+                "formatado": "8,67",
+                "unidade": "numero"
+              },
+              {
+                "valor": 956.99,
+                "formatado": "956,99",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.7,
+                "formatado": "1,70",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 14.86,
+                "formatado": "14,86",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.17,
+                "formatado": "3,17",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 57,31M",
+            "metricas": [
+              {
+                "valor": 57.31,
+                "formatado": "R$ 57,31",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.46,
+                "formatado": "0,46%",
+                "unidade": "%"
+              },
+              {
+                "valor": 46.0,
+                "formatado": "46",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.44,
+                "formatado": "R$3,44",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.1,
+                "formatado": "R$3,10",
+                "unidade": "R$"
+              },
+              {
+                "valor": 30.0,
+                "formatado": "30",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 49.45,
+                "formatado": "49,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 958.3,
+                "formatado": "958,30",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.48,
+                "formatado": "3,48",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.43,
+                "formatado": "2,43",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -26,44%",
+            "metricas": [
+              {
+                "valor": -26.44,
+                "formatado": "-26,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 70,97%",
+            "metricas": [
+              {
+                "valor": 70.97,
+                "formatado": "70,97%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 9.92,
+                "formatado": "R$9,92",
+                "unidade": "R$"
+              },
+              {
+                "valor": 7.04,
+                "formatado": "R$7,04",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2020": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2018 | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 24.0,
+                "formatado": "024",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "09",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 23.0,
+                "formatado": "023",
+                "unidade": "numero"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 16,64%",
+            "metricas": [
+              {
+                "valor": 16.64,
+                "formatado": "16,64%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "16,64% | 15%",
+            "metricas": [
+              {
+                "valor": 16.64,
+                "formatado": "16,64%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 18,83%",
+            "metricas": [
+              {
+                "valor": 18.83,
+                "formatado": "18,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "18,83% | 25%",
+            "metricas": [
+              {
+                "valor": 18.83,
+                "formatado": "18,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 44,79%",
+            "metricas": [
+              {
+                "valor": 44.79,
+                "formatado": "44,79%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "44,79% | 54%",
+            "metricas": [
+              {
+                "valor": 44.79,
+                "formatado": "44,79%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 42,58%",
+            "metricas": [
+              {
+                "valor": 42.58,
+                "formatado": "42,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "42,58% | 48,6%",
+            "metricas": [
+              {
+                "valor": 42.58,
+                "formatado": "42,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,21%",
+            "metricas": [
+              {
+                "valor": 2.21,
+                "formatado": "2,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,21% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.21,
+                "formatado": "2,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -26,44%",
+            "metricas": [
+              {
+                "valor": -26.44,
+                "formatado": "-26,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-26,44% | 108%",
+            "metricas": [
+              {
+                "valor": -26.44,
+                "formatado": "-26,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 83,57M",
+            "metricas": [
+              {
+                "valor": 83.57,
+                "formatado": "R$ 83,57",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.56,
+                "formatado": "0,56%",
+                "unidade": "%"
+              },
+              {
+                "valor": 34.0,
+                "formatado": "34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "R$5,00",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.05,
+                "formatado": "R$3,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 304.68,
+                "formatado": "304,68",
+                "unidade": "numero"
+              },
+              {
+                "valor": 297.58,
+                "formatado": "297,58",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.96,
+                "formatado": "3,96",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 10.33,
+                "formatado": "10,33",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.01,
+                "formatado": "1,01",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 321.2,
+                "formatado": "321,20",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 14.22,
+                "formatado": "14,22",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.8,
+                "formatado": "1,80",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 59,54M",
+            "metricas": [
+              {
+                "valor": 59.54,
+                "formatado": "R$ 59,54",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.44,
+                "formatado": "0,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 45.0,
+                "formatado": "45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.56,
+                "formatado": "R$3,56",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.31,
+                "formatado": "R$3,31",
+                "unidade": "R$"
+              },
+              {
+                "valor": 26.0,
+                "formatado": "26",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 58.09,
+                "formatado": "58,09",
+                "unidade": "numero"
+              },
+              {
+                "valor": 541.34,
+                "formatado": "541,34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.72,
+                "formatado": "3,72",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.9,
+                "formatado": "1,90",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -26,44%",
+            "metricas": [
+              {
+                "valor": -26.44,
+                "formatado": "-26,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 62,73%",
+            "metricas": [
+              {
+                "valor": 62.73,
+                "formatado": "62,73%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 9.53,
+                "formatado": "R$9,53",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.98,
+                "formatado": "R$5,98",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2021": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2019 | 2020",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 91.0,
+                "formatado": "091",
+                "unidade": "numero"
+              },
+              {
+                "valor": 79.0,
+                "formatado": "79",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 51.0,
+                "formatado": "051",
+                "unidade": "numero"
+              },
+              {
+                "valor": 40.0,
+                "formatado": "40",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 16,40%",
+            "metricas": [
+              {
+                "valor": 16.4,
+                "formatado": "16,40%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "16,40% | 15%",
+            "metricas": [
+              {
+                "valor": 16.4,
+                "formatado": "16,40%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,46%",
+            "metricas": [
+              {
+                "valor": 29.46,
+                "formatado": "29,46%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,46% | 25%",
+            "metricas": [
+              {
+                "valor": 29.46,
+                "formatado": "29,46%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 32,22%",
+            "metricas": [
+              {
+                "valor": 32.22,
+                "formatado": "32,22%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "32,22% | 54%",
+            "metricas": [
+              {
+                "valor": 32.22,
+                "formatado": "32,22%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 30,30%",
+            "metricas": [
+              {
+                "valor": 30.3,
+                "formatado": "30,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "30,30% | 48,6%",
+            "metricas": [
+              {
+                "valor": 30.3,
+                "formatado": "30,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 1,92%",
+            "metricas": [
+              {
+                "valor": 1.92,
+                "formatado": "1,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "1,92% | 5,4%",
+            "metricas": [
+              {
+                "valor": 1.92,
+                "formatado": "1,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 59,47%",
+            "metricas": [
+              {
+                "valor": 59.47,
+                "formatado": "59,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "59,47% | 85%",
+            "metricas": [
+              {
+                "valor": 59.47,
+                "formatado": "59,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -47,37%",
+            "metricas": [
+              {
+                "valor": -47.37,
+                "formatado": "-47,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-47,37% | 108%",
+            "metricas": [
+              {
+                "valor": -47.37,
+                "formatado": "-47,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 104,51M",
+            "metricas": [
+              {
+                "valor": 104.51,
+                "formatado": "R$ 104,51",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.62,
+                "formatado": "0,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 29.0,
+                "formatado": "29",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.23,
+                "formatado": "R$6,23",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.5,
+                "formatado": "R$3,50",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 625.04,
+                "formatado": "625,04",
+                "unidade": "numero"
+              },
+              {
+                "valor": 480.33,
+                "formatado": "480,33",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.78,
+                "formatado": "9,78",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 13.13,
+                "formatado": "13,13",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.02,
+                "formatado": "1,02",
+                "unidade": "numero"
+              },
+              {
+                "valor": 864.73,
+                "formatado": "864,73",
+                "unidade": "numero"
+              },
+              {
+                "valor": 456.89,
+                "formatado": "456,89",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 18.92,
+                "formatado": "18,92",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.64,
+                "formatado": "2,64",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 87,73M",
+            "metricas": [
+              {
+                "valor": 87.73,
+                "formatado": "R$ 87,73",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.62,
+                "formatado": "0,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 29.0,
+                "formatado": "29",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.23,
+                "formatado": "R$5,23",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.42,
+                "formatado": "R$3,42",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 59.05,
+                "formatado": "59,05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.37,
+                "formatado": "2,37",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.3,
+                "formatado": "1,30",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.97,
+                "formatado": "1,97",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -47,37%",
+            "metricas": [
+              {
+                "valor": -47.37,
+                "formatado": "-47,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 74,03%",
+            "metricas": [
+              {
+                "valor": 74.03,
+                "formatado": "74,03%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 11.77,
+                "formatado": "R$11,77",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.71,
+                "formatado": "R$8,71",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2022": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2020",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2020 | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 49.0,
+                "formatado": "049",
+                "unidade": "numero"
+              },
+              {
+                "valor": 62.0,
+                "formatado": "62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 29.0,
+                "formatado": "029",
+                "unidade": "numero"
+              },
+              {
+                "valor": 94.0,
+                "formatado": "94",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 17,76%",
+            "metricas": [
+              {
+                "valor": 17.76,
+                "formatado": "17,76%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "17,76% | 15%",
+            "metricas": [
+              {
+                "valor": 17.76,
+                "formatado": "17,76%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 26,31%",
+            "metricas": [
+              {
+                "valor": 26.31,
+                "formatado": "26,31%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "26,31% | 25%",
+            "metricas": [
+              {
+                "valor": 26.31,
+                "formatado": "26,31%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 39,48%",
+            "metricas": [
+              {
+                "valor": 39.48,
+                "formatado": "39,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "39,48% | 54%",
+            "metricas": [
+              {
+                "valor": 39.48,
+                "formatado": "39,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 37,33%",
+            "metricas": [
+              {
+                "valor": 37.33,
+                "formatado": "37,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "37,33% | 48,6%",
+            "metricas": [
+              {
+                "valor": 37.33,
+                "formatado": "37,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,15%",
+            "metricas": [
+              {
+                "valor": 2.15,
+                "formatado": "2,15%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,15% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.15,
+                "formatado": "2,15%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 75,47%",
+            "metricas": [
+              {
+                "valor": 75.47,
+                "formatado": "75,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "75,47% | 85%",
+            "metricas": [
+              {
+                "valor": 75.47,
+                "formatado": "75,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -53,61%",
+            "metricas": [
+              {
+                "valor": -53.61,
+                "formatado": "-53,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-53,61% | 108%",
+            "metricas": [
+              {
+                "valor": -53.61,
+                "formatado": "-53,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 120,54M",
+            "metricas": [
+              {
+                "valor": 120.54,
+                "formatado": "R$ 120,54",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.59,
+                "formatado": "0,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 35.0,
+                "formatado": "35",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.56,
+                "formatado": "R$8,56",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.2,
+                "formatado": "R$4,20",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 742.47,
+                "formatado": "742,47",
+                "unidade": "numero"
+              },
+              {
+                "valor": 446.77,
+                "formatado": "446,77",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.32,
+                "formatado": "8,32",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 12.81,
+                "formatado": "12,81",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.42,
+                "formatado": "1,42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 408.23,
+                "formatado": "408,23",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 23.79,
+                "formatado": "23,79",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.81,
+                "formatado": "2,81",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 93,16M",
+            "metricas": [
+              {
+                "valor": 93.16,
+                "formatado": "R$ 93,16",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.52,
+                "formatado": "0,52%",
+                "unidade": "%"
+              },
+              {
+                "valor": 40.0,
+                "formatado": "40",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.62,
+                "formatado": "R$6,62",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 108.44,
+                "formatado": "108,44",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.17,
+                "formatado": "4,17",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.29,
+                "formatado": "1,29",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.33,
+                "formatado": "4,33",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -53,61%",
+            "metricas": [
+              {
+                "valor": -53.61,
+                "formatado": "-53,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 91,56%",
+            "metricas": [
+              {
+                "valor": 91.56,
+                "formatado": "91,56%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 13.13,
+                "formatado": "R$13,13",
+                "unidade": "R$"
+              },
+              {
+                "valor": 12.02,
+                "formatado": "R$12,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2023": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2021 | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 43.0,
+                "formatado": "043",
+                "unidade": "numero"
+              },
+              {
+                "valor": 97.0,
+                "formatado": "97",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 34.0,
+                "formatado": "034",
+                "unidade": "numero"
+              },
+              {
+                "valor": 50.0,
+                "formatado": "50",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 17,37%",
+            "metricas": [
+              {
+                "valor": 17.37,
+                "formatado": "17,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "17,37% | 15%",
+            "metricas": [
+              {
+                "valor": 17.37,
+                "formatado": "17,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 26,91%",
+            "metricas": [
+              {
+                "valor": 26.91,
+                "formatado": "26,91%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "26,91% | 25%",
+            "metricas": [
+              {
+                "valor": 26.91,
+                "formatado": "26,91%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 43,92%",
+            "metricas": [
+              {
+                "valor": 43.92,
+                "formatado": "43,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "43,92% | 54%",
+            "metricas": [
+              {
+                "valor": 43.92,
+                "formatado": "43,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 41,70%",
+            "metricas": [
+              {
+                "valor": 41.7,
+                "formatado": "41,70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "41,70% | 48,6%",
+            "metricas": [
+              {
+                "valor": 41.7,
+                "formatado": "41,70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,22%",
+            "metricas": [
+              {
+                "valor": 2.22,
+                "formatado": "2,22%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,22% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.22,
+                "formatado": "2,22%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 80,66%",
+            "metricas": [
+              {
+                "valor": 80.66,
+                "formatado": "80,66%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "80,66% | 85%",
+            "metricas": [
+              {
+                "valor": 80.66,
+                "formatado": "80,66%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -57,62%",
+            "metricas": [
+              {
+                "valor": -57.62,
+                "formatado": "-57,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-57,62% | 108%",
+            "metricas": [
+              {
+                "valor": -57.62,
+                "formatado": "-57,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 127,99M",
+            "metricas": [
+              {
+                "valor": 127.99,
+                "formatado": "R$ 127,99",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.55,
+                "formatado": "0,55%",
+                "unidade": "%"
+              },
+              {
+                "valor": 37.0,
+                "formatado": "37",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.09,
+                "formatado": "R$9,09",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 844.39,
+                "formatado": "844,39",
+                "unidade": "numero"
+              },
+              {
+                "valor": 878.34,
+                "formatado": "878,34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.21,
+                "formatado": "8,21",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 13.16,
+                "formatado": "13,16",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.59,
+                "formatado": "1,59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.75,
+                "formatado": "5,75",
+                "unidade": "numero"
+              },
+              {
+                "valor": 298.72,
+                "formatado": "298,72",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 24.67,
+                "formatado": "24,67",
+                "unidade": "numero"
+              },
+              {
+                "valor": 10.5,
+                "formatado": "10,50",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.39,
+                "formatado": "2,39",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 103,40M",
+            "metricas": [
+              {
+                "valor": 103.4,
+                "formatado": "R$ 103,40",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.48,
+                "formatado": "0,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 43.0,
+                "formatado": "43",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.34,
+                "formatado": "R$7,34",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.6,
+                "formatado": "R$5,60",
+                "unidade": "R$"
+              },
+              {
+                "valor": 12.0,
+                "formatado": "12",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 82.94,
+                "formatado": "82,94",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.62,
+                "formatado": "1,62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.45,
+                "formatado": "6,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.37,
+                "formatado": "5,37",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -57,62%",
+            "metricas": [
+              {
+                "valor": -57.62,
+                "formatado": "-57,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 96,02%",
+            "metricas": [
+              {
+                "valor": 96.02,
+                "formatado": "96,02%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 14.01,
+                "formatado": "R$14,01",
+                "unidade": "R$"
+              },
+              {
+                "valor": 13.45,
+                "formatado": "R$13,45",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2024": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2022 | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 57.0,
+                "formatado": "057",
+                "unidade": "numero"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 39.0,
+                "formatado": "039",
+                "unidade": "numero"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 15,17%",
+            "metricas": [
+              {
+                "valor": 15.17,
+                "formatado": "15,17%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "15,17% | 15%",
+            "metricas": [
+              {
+                "valor": 15.17,
+                "formatado": "15,17%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 25,21%",
+            "metricas": [
+              {
+                "valor": 25.21,
+                "formatado": "25,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "25,21% | 25%",
+            "metricas": [
+              {
+                "valor": 25.21,
+                "formatado": "25,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 37,62%",
+            "metricas": [
+              {
+                "valor": 37.62,
+                "formatado": "37,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "37,62% | 54%",
+            "metricas": [
+              {
+                "valor": 37.62,
+                "formatado": "37,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 35,59%",
+            "metricas": [
+              {
+                "valor": 35.59,
+                "formatado": "35,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "35,59% | 48,6%",
+            "metricas": [
+              {
+                "valor": 35.59,
+                "formatado": "35,59%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,03%",
+            "metricas": [
+              {
+                "valor": 2.03,
+                "formatado": "2,03%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,03% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.03,
+                "formatado": "2,03%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 74,83%",
+            "metricas": [
+              {
+                "valor": 74.83,
+                "formatado": "74,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "74,83% | 85%",
+            "metricas": [
+              {
+                "valor": 74.83,
+                "formatado": "74,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -54,82%",
+            "metricas": [
+              {
+                "valor": -54.82,
+                "formatado": "-54,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-54,82% | 108%",
+            "metricas": [
+              {
+                "valor": -54.82,
+                "formatado": "-54,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 152,63M",
+            "metricas": [
+              {
+                "valor": 152.63,
+                "formatado": "R$ 152,63",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.57,
+                "formatado": "0,57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 34.0,
+                "formatado": "34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 10.61,
+                "formatado": "R$10,61",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.99,
+                "formatado": "R$4,99",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 887.09,
+                "formatado": "887,09",
+                "unidade": "numero"
+              },
+              {
+                "valor": 553.38,
+                "formatado": "553,38",
+                "unidade": "numero"
+              },
+              {
+                "valor": 12.5,
+                "formatado": "12,50",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 15.76,
+                "formatado": "15,76",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.72,
+                "formatado": "1,72",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.45,
+                "formatado": "6,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 383.03,
+                "formatado": "383,03",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 28.2,
+                "formatado": "28,20",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.67,
+                "formatado": "2,67",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 124,43M",
+            "metricas": [
+              {
+                "valor": 124.43,
+                "formatado": "R$ 124,43",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.48,
+                "formatado": "0,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 42.0,
+                "formatado": "42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.65,
+                "formatado": "R$8,65",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.29,
+                "formatado": "R$6,29",
+                "unidade": "R$"
+              },
+              {
+                "valor": 13.0,
+                "formatado": "13",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 57.01,
+                "formatado": "57,01",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.23,
+                "formatado": "2,23",
+                "unidade": "numero"
+              },
+              {
+                "valor": 16.32,
+                "formatado": "16,32",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.29,
+                "formatado": "6,29",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -54,82%",
+            "metricas": [
+              {
+                "valor": -54.82,
+                "formatado": "-54,82%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 87,10%",
+            "metricas": [
+              {
+                "valor": 87.1,
+                "formatado": "87,10%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.88,
+                "formatado": "R$15,88",
+                "unidade": "R$"
+              },
+              {
+                "valor": 13.83,
+                "formatado": "R$13,83",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2025": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2023 | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 25.0,
+                "formatado": "025",
+                "unidade": "numero"
+              },
+              {
+                "valor": 68.0,
+                "formatado": "68",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 19.0,
+                "formatado": "019",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "01",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 17,77%",
+            "metricas": [
+              {
+                "valor": 17.77,
+                "formatado": "17,77%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "17,77% | 15%",
+            "metricas": [
+              {
+                "valor": 17.77,
+                "formatado": "17,77%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 25,08%",
+            "metricas": [
+              {
+                "valor": 25.08,
+                "formatado": "25,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "25,08% | 25%",
+            "metricas": [
+              {
+                "valor": 25.08,
+                "formatado": "25,08%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 39,93%",
+            "metricas": [
+              {
+                "valor": 39.93,
+                "formatado": "39,93%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "39,93% | 54%",
+            "metricas": [
+              {
+                "valor": 39.93,
+                "formatado": "39,93%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 37,74%",
+            "metricas": [
+              {
+                "valor": 37.74,
+                "formatado": "37,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "37,74% | 48,6%",
+            "metricas": [
+              {
+                "valor": 37.74,
+                "formatado": "37,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,19%",
+            "metricas": [
+              {
+                "valor": 2.19,
+                "formatado": "2,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,19% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.19,
+                "formatado": "2,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 73,62%",
+            "metricas": [
+              {
+                "valor": 73.62,
+                "formatado": "73,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "73,62% | 85%",
+            "metricas": [
+              {
+                "valor": 73.62,
+                "formatado": "73,62%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -57,13%",
+            "metricas": [
+              {
+                "valor": -57.13,
+                "formatado": "-57,13%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-57,13% | 108%",
+            "metricas": [
+              {
+                "valor": -57.13,
+                "formatado": "-57,13%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 159,89M",
+            "metricas": [
+              {
+                "valor": 159.89,
+                "formatado": "R$ 159,89",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.55,
+                "formatado": "0,55%",
+                "unidade": "%"
+              },
+              {
+                "valor": 37.0,
+                "formatado": "37",
+                "unidade": "numero"
+              },
+              {
+                "valor": 11.19,
+                "formatado": "R$11,19",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.77,
+                "formatado": "R$5,77",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 1.07,
+                "formatado": "1,07",
+                "unidade": "numero"
+              },
+              {
+                "valor": 507.51,
+                "formatado": "507,51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 12.18,
+                "formatado": "12,18",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 17.07,
+                "formatado": "17,07",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.89,
+                "formatado": "1,89",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.36,
+                "formatado": "3,36",
+                "unidade": "numero"
+              },
+              {
+                "valor": 381.37,
+                "formatado": "381,37",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 30.63,
+                "formatado": "30,63",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.72,
+                "formatado": "2,72",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 125,13M",
+            "metricas": [
+              {
+                "valor": 125.13,
+                "formatado": "R$ 125,13",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.48,
+                "formatado": "0,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 42.0,
+                "formatado": "42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.75,
+                "formatado": "R$8,75",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.37,
+                "formatado": "R$6,37",
+                "unidade": "R$"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 63.25,
+                "formatado": "63,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 671.86,
+                "formatado": "671,86",
+                "unidade": "numero"
+              },
+              {
+                "valor": 13.53,
+                "formatado": "13,53",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.59,
+                "formatado": "4,59",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -57,13%",
+            "metricas": [
+              {
+                "valor": -57.13,
+                "formatado": "-57,13%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 86,24%",
+            "metricas": [
+              {
+                "valor": 86.24,
+                "formatado": "86,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 16.4,
+                "formatado": "R$16,40",
+                "unidade": "R$"
+              },
+              {
+                "valor": 14.14,
+                "formatado": "R$14,14",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2026": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2024 | 2025",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 14,58%",
+            "metricas": [
+              {
+                "valor": 14.58,
+                "formatado": "14,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "14,58% | 15%",
+            "metricas": [
+              {
+                "valor": 14.58,
+                "formatado": "14,58%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 19,72%",
+            "metricas": [
+              {
+                "valor": 19.72,
+                "formatado": "19,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "19,72% | 25%",
+            "metricas": [
+              {
+                "valor": 19.72,
+                "formatado": "19,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 39,32%",
+            "metricas": [
+              {
+                "valor": 39.32,
+                "formatado": "39,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "39,32% | 54%",
+            "metricas": [
+              {
+                "valor": 39.32,
+                "formatado": "39,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 37,12%",
+            "metricas": [
+              {
+                "valor": 37.12,
+                "formatado": "37,12%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "37,12% | 48,6%",
+            "metricas": [
+              {
+                "valor": 37.12,
+                "formatado": "37,12%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,21%",
+            "metricas": [
+              {
+                "valor": 2.21,
+                "formatado": "2,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,21% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.21,
+                "formatado": "2,21%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 78,47%",
+            "metricas": [
+              {
+                "valor": 78.47,
+                "formatado": "78,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "78,47% | 85%",
+            "metricas": [
+              {
+                "valor": 78.47,
+                "formatado": "78,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -57,41%",
+            "metricas": [
+              {
+                "valor": -57.41,
+                "formatado": "-57,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-57,41% | 108%",
+            "metricas": [
+              {
+                "valor": -57.41,
+                "formatado": "-57,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/visaoGeral_2026.jpg"
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 119,44M",
+            "metricas": [
+              {
+                "valor": 119.44,
+                "formatado": "R$ 119,44",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.49,
+                "formatado": "0,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 42.0,
+                "formatado": "42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.41,
+                "formatado": "R$8,41",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.8,
+                "formatado": "R$4,80",
+                "unidade": "R$"
+              },
+              {
+                "valor": 17.0,
+                "formatado": "17",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 928.82,
+                "formatado": "928,82",
+                "unidade": "numero"
+              },
+              {
+                "valor": 411.92,
+                "formatado": "411,92",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.95,
+                "formatado": "8,95",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 14.41,
+                "formatado": "14,41",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.93,
+                "formatado": "1,93",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.13,
+                "formatado": "3,13",
+                "unidade": "numero"
+              },
+              {
+                "valor": 439.02,
+                "formatado": "439,02",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 23.93,
+                "formatado": "23,93",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.95,
+                "formatado": "2,95",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/receitas_2026.jpg"
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 94,61M",
+            "metricas": [
+              {
+                "valor": 94.61,
+                "formatado": "R$ 94,61",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.45,
+                "formatado": "0,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.0,
+                "formatado": "48",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.66,
+                "formatado": "R$6,66",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.05,
+                "formatado": "R$5,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 22.0,
+                "formatado": "22",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 67.91,
+                "formatado": "67,91",
+                "unidade": "numero"
+              },
+              {
+                "valor": 259.78,
+                "formatado": "259,78",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.18,
+                "formatado": "5,18",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.02,
+                "formatado": "5,02",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/despesas_2026.jpg"
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -57,41%",
+            "metricas": [
+              {
+                "valor": -57.41,
+                "formatado": "-57,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/dividaConsolidada_2026.jpg"
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 84,69%",
+            "metricas": [
+              {
+                "valor": 84.69,
+                "formatado": "84,69%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 13.26,
+                "formatado": "R$13,26",
+                "unidade": "R$"
+              },
+              {
+                "valor": 11.23,
+                "formatado": "R$11,23",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/fundeb_2026.jpg"
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/joao-neiva/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": [],
+        "print_auditoria": "prints_edicao_impressa/joao-neiva/receitaCorrenteLiquida_2026.jpg"
+      }
+    }
+  }
+}
