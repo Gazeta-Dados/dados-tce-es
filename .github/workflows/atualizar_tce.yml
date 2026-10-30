@@ -25,6 +25,10 @@ on:
           - '2'
           - '3'
           - '4'
+          - '5'
+          - '6'
+          - '7'
+          - '8'
           - 'todos'
       gerar_prints:
         description: 'Gerar prints de 2026 para a revista impressa?'
