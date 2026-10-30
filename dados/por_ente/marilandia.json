@@ -1,0 +1,5375 @@
+{
+  "nome": "Marilândia",
+  "tipo": "Município",
+  "anos": {
+    "2019": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2017",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2017 | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.0,
+                "formatado": "7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 33.0,
+                "formatado": "033",
+                "unidade": "numero"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 21.0,
+                "formatado": "021",
+                "unidade": "numero"
+              },
+              {
+                "valor": 45.0,
+                "formatado": "45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 23,09%",
+            "metricas": [
+              {
+                "valor": 23.09,
+                "formatado": "23,09%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "23,09% | 15%",
+            "metricas": [
+              {
+                "valor": 23.09,
+                "formatado": "23,09%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,86%",
+            "metricas": [
+              {
+                "valor": 29.86,
+                "formatado": "29,86%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,86% | 25%",
+            "metricas": [
+              {
+                "valor": 29.86,
+                "formatado": "29,86%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 50,90%",
+            "metricas": [
+              {
+                "valor": 50.9,
+                "formatado": "50,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "50,90% | 54%",
+            "metricas": [
+              {
+                "valor": 50.9,
+                "formatado": "50,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 47,94%",
+            "metricas": [
+              {
+                "valor": 47.94,
+                "formatado": "47,94%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "47,94% | 48,6%",
+            "metricas": [
+              {
+                "valor": 47.94,
+                "formatado": "47,94%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,96%",
+            "metricas": [
+              {
+                "valor": 2.96,
+                "formatado": "2,96%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,96% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.96,
+                "formatado": "2,96%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Índice de Solvência | 1,27",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "1,27 | 0,3",
+            "metricas": [
+              {
+                "valor": 1.27,
+                "formatado": "1,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.7,
+                "formatado": "0,7",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Previdência - Fundo Financeiro | R$ 2,02B",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "R$ 2,02B | Necessidade de cobertura financeira nos próximos 75 anos",
+            "metricas": [
+              {
+                "valor": 2.02,
+                "formatado": "R$ 2,02",
+                "unidade": "R$"
+              },
+              {
+                "valor": 75.0,
+                "formatado": "75",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 42,07M",
+            "metricas": [
+              {
+                "valor": 42.07,
+                "formatado": "R$ 42,07",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 59.0,
+                "formatado": "59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.28,
+                "formatado": "R$3,28",
+                "unidade": "R$"
+              },
+              {
+                "valor": 2.85,
+                "formatado": "R$2,85",
+                "unidade": "R$"
+              },
+              {
+                "valor": 46.0,
+                "formatado": "46",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 272.27,
+                "formatado": "272,27",
+                "unidade": "numero"
+              },
+              {
+                "valor": 105.59,
+                "formatado": "105,59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 634.2,
+                "formatado": "634,20",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 9.49,
+                "formatado": "9,49",
+                "unidade": "numero"
+              },
+              {
+                "valor": 755.73,
+                "formatado": "755,73",
+                "unidade": "numero"
+              },
+              {
+                "valor": 513.19,
+                "formatado": "513,19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.2,
+                "formatado": "1,20",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 9.91,
+                "formatado": "9,91",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.03,
+                "formatado": "2,03",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 41,85M",
+            "metricas": [
+              {
+                "valor": 41.85,
+                "formatado": "R$ 41,85",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.26,
+                "formatado": "R$3,26",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.1,
+                "formatado": "R$3,10",
+                "unidade": "R$"
+              },
+              {
+                "valor": 42.0,
+                "formatado": "42",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 143.82,
+                "formatado": "143,82",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.41,
+                "formatado": "1,41",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.9,
+                "formatado": "2,90",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.7,
+                "formatado": "3,70",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -18,27%",
+            "metricas": [
+              {
+                "valor": -18.27,
+                "formatado": "-18,27%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 75,71%",
+            "metricas": [
+              {
+                "valor": 75.71,
+                "formatado": "75,71%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.18,
+                "formatado": "R$6,18",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.68,
+                "formatado": "R$4,68",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2019/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2020": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2018",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2018 | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "8",
+                "unidade": "numero"
+              },
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 24.0,
+                "formatado": "024",
+                "unidade": "numero"
+              },
+              {
+                "valor": 19.0,
+                "formatado": "19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 23.0,
+                "formatado": "023",
+                "unidade": "numero"
+              },
+              {
+                "valor": 31.0,
+                "formatado": "31",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 23,84%",
+            "metricas": [
+              {
+                "valor": 23.84,
+                "formatado": "23,84%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "23,84% | 15%",
+            "metricas": [
+              {
+                "valor": 23.84,
+                "formatado": "23,84%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 25,30%",
+            "metricas": [
+              {
+                "valor": 25.3,
+                "formatado": "25,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "25,30% | 25%",
+            "metricas": [
+              {
+                "valor": 25.3,
+                "formatado": "25,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 51,41%",
+            "metricas": [
+              {
+                "valor": 51.41,
+                "formatado": "51,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "51,41% | 54%",
+            "metricas": [
+              {
+                "valor": 51.41,
+                "formatado": "51,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 48,49%",
+            "metricas": [
+              {
+                "valor": 48.49,
+                "formatado": "48,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "48,49% | 48,6%",
+            "metricas": [
+              {
+                "valor": 48.49,
+                "formatado": "48,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,92%",
+            "metricas": [
+              {
+                "valor": 2.92,
+                "formatado": "2,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,92% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.92,
+                "formatado": "2,92%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -18,27%",
+            "metricas": [
+              {
+                "valor": -18.27,
+                "formatado": "-18,27%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-18,27% | 108%",
+            "metricas": [
+              {
+                "valor": -18.27,
+                "formatado": "-18,27%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 44,18M",
+            "metricas": [
+              {
+                "valor": 44.18,
+                "formatado": "R$ 44,18",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.3,
+                "formatado": "0,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 61.0,
+                "formatado": "61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.41,
+                "formatado": "R$3,41",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.05,
+                "formatado": "R$3,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 53.0,
+                "formatado": "53",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 335.05,
+                "formatado": "335,05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 180.74,
+                "formatado": "180,74",
+                "unidade": "numero"
+              },
+              {
+                "valor": 630.48,
+                "formatado": "630,48",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 10.17,
+                "formatado": "10,17",
+                "unidade": "numero"
+              },
+              {
+                "valor": 810.73,
+                "formatado": "810,73",
+                "unidade": "numero"
+              },
+              {
+                "valor": 163.63,
+                "formatado": "163,63",
+                "unidade": "numero"
+              },
+              {
+                "valor": 316.76,
+                "formatado": "316,76",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 9.48,
+                "formatado": "9,48",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.58,
+                "formatado": "1,58",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 42,86M",
+            "metricas": [
+              {
+                "valor": 42.86,
+                "formatado": "R$ 42,86",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.32,
+                "formatado": "0,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.31,
+                "formatado": "R$3,31",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.31,
+                "formatado": "R$3,31",
+                "unidade": "R$"
+              },
+              {
+                "valor": 43.0,
+                "formatado": "43",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 65.19,
+                "formatado": "65,19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.75,
+                "formatado": "1,75",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.95,
+                "formatado": "2,95",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.51,
+                "formatado": "3,51",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -18,27%",
+            "metricas": [
+              {
+                "valor": -18.27,
+                "formatado": "-18,27%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 70,30%",
+            "metricas": [
+              {
+                "valor": 70.3,
+                "formatado": "70,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.01,
+                "formatado": "R$6,01",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.23,
+                "formatado": "R$4,23",
+                "unidade": "R$"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2020/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2021": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2019",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2019 | 2020",
+            "metricas": [
+              {
+                "valor": 201.0,
+                "formatado": "201",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.0,
+                "formatado": "9",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 80.0,
+                "formatado": "080",
+                "unidade": "numero"
+              },
+              {
+                "valor": 30.0,
+                "formatado": "30",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 55.0,
+                "formatado": "055",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "06",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 23,24%",
+            "metricas": [
+              {
+                "valor": 23.24,
+                "formatado": "23,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "23,24% | 15%",
+            "metricas": [
+              {
+                "valor": 23.24,
+                "formatado": "23,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 28,44%",
+            "metricas": [
+              {
+                "valor": 28.44,
+                "formatado": "28,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "28,44% | 25%",
+            "metricas": [
+              {
+                "valor": 28.44,
+                "formatado": "28,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 47,48%",
+            "metricas": [
+              {
+                "valor": 47.48,
+                "formatado": "47,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "47,48% | 54%",
+            "metricas": [
+              {
+                "valor": 47.48,
+                "formatado": "47,48%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 45,03%",
+            "metricas": [
+              {
+                "valor": 45.03,
+                "formatado": "45,03%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "45,03% | 48,6%",
+            "metricas": [
+              {
+                "valor": 45.03,
+                "formatado": "45,03%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,45%",
+            "metricas": [
+              {
+                "valor": 2.45,
+                "formatado": "2,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,45% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.45,
+                "formatado": "2,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 92,19%",
+            "metricas": [
+              {
+                "valor": 92.19,
+                "formatado": "92,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "92,19% | 85%",
+            "metricas": [
+              {
+                "valor": 92.19,
+                "formatado": "92,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -21,98%",
+            "metricas": [
+              {
+                "valor": -21.98,
+                "formatado": "-21,98%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-21,98% | 108%",
+            "metricas": [
+              {
+                "valor": -21.98,
+                "formatado": "-21,98%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 53,04M",
+            "metricas": [
+              {
+                "valor": 53.04,
+                "formatado": "R$ 53,04",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.32,
+                "formatado": "0,32%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.05,
+                "formatado": "R$4,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.5,
+                "formatado": "R$3,50",
+                "unidade": "R$"
+              },
+              {
+                "valor": 42.0,
+                "formatado": "42",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 493.95,
+                "formatado": "493,95",
+                "unidade": "numero"
+              },
+              {
+                "valor": 203.98,
+                "formatado": "203,98",
+                "unidade": "numero"
+              },
+              {
+                "valor": 836.5,
+                "formatado": "836,50",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 13.42,
+                "formatado": "13,42",
+                "unidade": "numero"
+              },
+              {
+                "valor": 894.09,
+                "formatado": "894,09",
+                "unidade": "numero"
+              },
+              {
+                "valor": 476.49,
+                "formatado": "476,49",
+                "unidade": "numero"
+              },
+              {
+                "valor": 468.66,
+                "formatado": "468,66",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 12.61,
+                "formatado": "12,61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.31,
+                "formatado": "2,31",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 48,84M",
+            "metricas": [
+              {
+                "valor": 48.84,
+                "formatado": "R$ 48,84",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.35,
+                "formatado": "0,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.73,
+                "formatado": "R$3,73",
+                "unidade": "R$"
+              },
+              {
+                "valor": 3.42,
+                "formatado": "R$3,42",
+                "unidade": "R$"
+              },
+              {
+                "valor": 30.0,
+                "formatado": "30",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 142.28,
+                "formatado": "142,28",
+                "unidade": "numero"
+              },
+              {
+                "valor": 778.41,
+                "formatado": "778,41",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.05,
+                "formatado": "2,05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.08,
+                "formatado": "5,08",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -21,98%",
+            "metricas": [
+              {
+                "valor": -21.98,
+                "formatado": "-21,98%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 76,06%",
+            "metricas": [
+              {
+                "valor": 76.06,
+                "formatado": "76,06%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 7.46,
+                "formatado": "R$7,46",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.67,
+                "formatado": "R$5,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2021/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2022": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2020",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2020 | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 48.0,
+                "formatado": "048",
+                "unidade": "numero"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 31.0,
+                "formatado": "031",
+                "unidade": "numero"
+              },
+              {
+                "valor": 34.0,
+                "formatado": "34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 25,50%",
+            "metricas": [
+              {
+                "valor": 25.5,
+                "formatado": "25,50%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "25,50% | 15%",
+            "metricas": [
+              {
+                "valor": 25.5,
+                "formatado": "25,50%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,67%",
+            "metricas": [
+              {
+                "valor": 29.67,
+                "formatado": "29,67%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,67% | 25%",
+            "metricas": [
+              {
+                "valor": 29.67,
+                "formatado": "29,67%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 47,73%",
+            "metricas": [
+              {
+                "valor": 47.73,
+                "formatado": "47,73%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "47,73% | 54%",
+            "metricas": [
+              {
+                "valor": 47.73,
+                "formatado": "47,73%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 45,24%",
+            "metricas": [
+              {
+                "valor": 45.24,
+                "formatado": "45,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "45,24% | 48,6%",
+            "metricas": [
+              {
+                "valor": 45.24,
+                "formatado": "45,24%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,49%",
+            "metricas": [
+              {
+                "valor": 2.49,
+                "formatado": "2,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,49% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.49,
+                "formatado": "2,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 99,74%",
+            "metricas": [
+              {
+                "valor": 99.74,
+                "formatado": "99,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "99,74% | 85%",
+            "metricas": [
+              {
+                "valor": 99.74,
+                "formatado": "99,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -26,43%",
+            "metricas": [
+              {
+                "valor": -26.43,
+                "formatado": "-26,43%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-26,43% | 108%",
+            "metricas": [
+              {
+                "valor": -26.43,
+                "formatado": "-26,43%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 69,90M",
+            "metricas": [
+              {
+                "valor": 69.9,
+                "formatado": "R$ 69,90",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.64,
+                "formatado": "R$5,64",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.2,
+                "formatado": "R$4,20",
+                "unidade": "R$"
+              },
+              {
+                "valor": 36.0,
+                "formatado": "36",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 525.47,
+                "formatado": "525,47",
+                "unidade": "numero"
+              },
+              {
+                "valor": 209.1,
+                "formatado": "209,10",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.12,
+                "formatado": "1,12",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 15.0,
+                "formatado": "15,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.25,
+                "formatado": "1,25",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.46,
+                "formatado": "3,46",
+                "unidade": "numero"
+              },
+              {
+                "valor": 478.03,
+                "formatado": "478,03",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 15.86,
+                "formatado": "15,86",
+                "unidade": "numero"
+              },
+              {
+                "valor": 449.45,
+                "formatado": "449,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.71,
+                "formatado": "2,71",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 64,83M",
+            "metricas": [
+              {
+                "valor": 64.83,
+                "formatado": "R$ 64,83",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.36,
+                "formatado": "0,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.23,
+                "formatado": "R$5,23",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 35.0,
+                "formatado": "35",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 180.54,
+                "formatado": "180,54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.52,
+                "formatado": "1,52",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.23,
+                "formatado": "5,23",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.58,
+                "formatado": "6,58",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -26,43%",
+            "metricas": [
+              {
+                "valor": -26.43,
+                "formatado": "-26,43%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 75,40%",
+            "metricas": [
+              {
+                "valor": 75.4,
+                "formatado": "75,40%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 8.52,
+                "formatado": "R$8,52",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.42,
+                "formatado": "R$6,42",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2022/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2023": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2021",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2021 | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.0,
+                "formatado": "1",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 39.0,
+                "formatado": "039",
+                "unidade": "numero"
+              },
+              {
+                "valor": 61.0,
+                "formatado": "61",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 34.0,
+                "formatado": "034",
+                "unidade": "numero"
+              },
+              {
+                "valor": 56.0,
+                "formatado": "56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 27,52%",
+            "metricas": [
+              {
+                "valor": 27.52,
+                "formatado": "27,52%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "27,52% | 15%",
+            "metricas": [
+              {
+                "valor": 27.52,
+                "formatado": "27,52%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 31,99%",
+            "metricas": [
+              {
+                "valor": 31.99,
+                "formatado": "31,99%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "31,99% | 25%",
+            "metricas": [
+              {
+                "valor": 31.99,
+                "formatado": "31,99%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 48,19%",
+            "metricas": [
+              {
+                "valor": 48.19,
+                "formatado": "48,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "48,19% | 54%",
+            "metricas": [
+              {
+                "valor": 48.19,
+                "formatado": "48,19%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 45,90%",
+            "metricas": [
+              {
+                "valor": 45.9,
+                "formatado": "45,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "45,90% | 48,6%",
+            "metricas": [
+              {
+                "valor": 45.9,
+                "formatado": "45,90%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,28%",
+            "metricas": [
+              {
+                "valor": 2.28,
+                "formatado": "2,28%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,28% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.28,
+                "formatado": "2,28%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 95,17%",
+            "metricas": [
+              {
+                "valor": 95.17,
+                "formatado": "95,17%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "95,17% | 85%",
+            "metricas": [
+              {
+                "valor": 95.17,
+                "formatado": "95,17%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -39,75%",
+            "metricas": [
+              {
+                "valor": -39.75,
+                "formatado": "-39,75%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-39,75% | 108%",
+            "metricas": [
+              {
+                "valor": -39.75,
+                "formatado": "-39,75%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 87,13M",
+            "metricas": [
+              {
+                "valor": 87.13,
+                "formatado": "R$ 87,13",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.37,
+                "formatado": "0,37%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.0,
+                "formatado": "51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.03,
+                "formatado": "R$7,03",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.67,
+                "formatado": "R$4,67",
+                "unidade": "R$"
+              },
+              {
+                "valor": 22.0,
+                "formatado": "22",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 564.91,
+                "formatado": "564,91",
+                "unidade": "numero"
+              },
+              {
+                "valor": 322.34,
+                "formatado": "322,34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.98,
+                "formatado": "1,98",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 15.85,
+                "formatado": "15,85",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.54,
+                "formatado": "1,54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.76,
+                "formatado": "5,76",
+                "unidade": "numero"
+              },
+              {
+                "valor": 389.67,
+                "formatado": "389,67",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 16.45,
+                "formatado": "16,45",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.48,
+                "formatado": "1,48",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.04,
+                "formatado": "2,04",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 73,49M",
+            "metricas": [
+              {
+                "valor": 73.49,
+                "formatado": "R$ 73,49",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.93,
+                "formatado": "R$5,93",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.6,
+                "formatado": "R$5,60",
+                "unidade": "R$"
+              },
+              {
+                "valor": 36.0,
+                "formatado": "36",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 149.22,
+                "formatado": "149,22",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.05,
+                "formatado": "1,05",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.66,
+                "formatado": "8,66",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.15,
+                "formatado": "6,15",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -39,75%",
+            "metricas": [
+              {
+                "valor": -39.75,
+                "formatado": "-39,75%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 73,44%",
+            "metricas": [
+              {
+                "valor": 73.44,
+                "formatado": "73,44%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 10.89,
+                "formatado": "R$10,89",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.0,
+                "formatado": "R$8,00",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2023/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2024": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2022",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2022 | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.0,
+                "formatado": "2",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 59.0,
+                "formatado": "059",
+                "unidade": "numero"
+              },
+              {
+                "valor": 63.0,
+                "formatado": "63",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 38.0,
+                "formatado": "038",
+                "unidade": "numero"
+              },
+              {
+                "valor": 82.0,
+                "formatado": "82",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 22,65%",
+            "metricas": [
+              {
+                "valor": 22.65,
+                "formatado": "22,65%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "22,65% | 15%",
+            "metricas": [
+              {
+                "valor": 22.65,
+                "formatado": "22,65%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 29,49%",
+            "metricas": [
+              {
+                "valor": 29.49,
+                "formatado": "29,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "29,49% | 25%",
+            "metricas": [
+              {
+                "valor": 29.49,
+                "formatado": "29,49%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 42,06%",
+            "metricas": [
+              {
+                "valor": 42.06,
+                "formatado": "42,06%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "42,06% | 54%",
+            "metricas": [
+              {
+                "valor": 42.06,
+                "formatado": "42,06%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 39,96%",
+            "metricas": [
+              {
+                "valor": 39.96,
+                "formatado": "39,96%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "39,96% | 48,6%",
+            "metricas": [
+              {
+                "valor": 39.96,
+                "formatado": "39,96%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,11%",
+            "metricas": [
+              {
+                "valor": 2.11,
+                "formatado": "2,11%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,11% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.11,
+                "formatado": "2,11%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 91,65%",
+            "metricas": [
+              {
+                "valor": 91.65,
+                "formatado": "91,65%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "91,65% | 85%",
+            "metricas": [
+              {
+                "valor": 91.65,
+                "formatado": "91,65%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -32,38%",
+            "metricas": [
+              {
+                "valor": -32.38,
+                "formatado": "-32,38%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-32,38% | 108%",
+            "metricas": [
+              {
+                "valor": -32.38,
+                "formatado": "-32,38%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 89,86M",
+            "metricas": [
+              {
+                "valor": 89.86,
+                "formatado": "R$ 89,86",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.34,
+                "formatado": "0,34%",
+                "unidade": "%"
+              },
+              {
+                "valor": 55.0,
+                "formatado": "55",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.9,
+                "formatado": "R$6,90",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.99,
+                "formatado": "R$4,99",
+                "unidade": "R$"
+              },
+              {
+                "valor": 38.0,
+                "formatado": "38",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 551.35,
+                "formatado": "551,35",
+                "unidade": "numero"
+              },
+              {
+                "valor": 251.53,
+                "formatado": "251,53",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.96,
+                "formatado": "1,96",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 19.1,
+                "formatado": "19,10",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.76,
+                "formatado": "1,76",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.14,
+                "formatado": "2,14",
+                "unidade": "numero"
+              },
+              {
+                "valor": 460.04,
+                "formatado": "460,04",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 19.2,
+                "formatado": "19,20",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.28,
+                "formatado": "2,28",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 89,52M",
+            "metricas": [
+              {
+                "valor": 89.52,
+                "formatado": "R$ 89,52",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.35,
+                "formatado": "0,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 53.0,
+                "formatado": "53",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.88,
+                "formatado": "R$6,88",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.29,
+                "formatado": "R$6,29",
+                "unidade": "R$"
+              },
+              {
+                "valor": 32.0,
+                "formatado": "32",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 136.33,
+                "formatado": "136,33",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.18,
+                "formatado": "4,18",
+                "unidade": "numero"
+              },
+              {
+                "valor": 13.56,
+                "formatado": "13,56",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.74,
+                "formatado": "7,74",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -32,38%",
+            "metricas": [
+              {
+                "valor": -32.38,
+                "formatado": "-32,38%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 72,83%",
+            "metricas": [
+              {
+                "valor": 72.83,
+                "formatado": "72,83%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 13.44,
+                "formatado": "R$13,44",
+                "unidade": "R$"
+              },
+              {
+                "valor": 9.79,
+                "formatado": "R$9,79",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2024/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2025": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2023",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2023 | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 3.0,
+                "formatado": "3",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 21.0,
+                "formatado": "021",
+                "unidade": "numero"
+              },
+              {
+                "valor": 13.0,
+                "formatado": "13",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de contas",
+            "metricas": [
+              {
+                "valor": 21.0,
+                "formatado": "021",
+                "unidade": "numero"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 19,02%",
+            "metricas": [
+              {
+                "valor": 19.02,
+                "formatado": "19,02%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "19,02% | 15%",
+            "metricas": [
+              {
+                "valor": 19.02,
+                "formatado": "19,02%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 30,18%",
+            "metricas": [
+              {
+                "valor": 30.18,
+                "formatado": "30,18%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "30,18% | 25%",
+            "metricas": [
+              {
+                "valor": 30.18,
+                "formatado": "30,18%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 40,30%",
+            "metricas": [
+              {
+                "valor": 40.3,
+                "formatado": "40,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "40,30% | 54%",
+            "metricas": [
+              {
+                "valor": 40.3,
+                "formatado": "40,30%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 38,33%",
+            "metricas": [
+              {
+                "valor": 38.33,
+                "formatado": "38,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "38,33% | 48,6%",
+            "metricas": [
+              {
+                "valor": 38.33,
+                "formatado": "38,33%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 1,97%",
+            "metricas": [
+              {
+                "valor": 1.97,
+                "formatado": "1,97%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "1,97% | 5,4%",
+            "metricas": [
+              {
+                "valor": 1.97,
+                "formatado": "1,97%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 87,35%",
+            "metricas": [
+              {
+                "valor": 87.35,
+                "formatado": "87,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "87,35% | 85%",
+            "metricas": [
+              {
+                "valor": 87.35,
+                "formatado": "87,35%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -38,72%",
+            "metricas": [
+              {
+                "valor": -38.72,
+                "formatado": "-38,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-38,72% | 108%",
+            "metricas": [
+              {
+                "valor": -38.72,
+                "formatado": "-38,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 117,97M",
+            "metricas": [
+              {
+                "valor": 117.97,
+                "formatado": "R$ 117,97",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.41,
+                "formatado": "0,41%",
+                "unidade": "%"
+              },
+              {
+                "valor": 50.0,
+                "formatado": "50",
+                "unidade": "numero"
+              },
+              {
+                "valor": 9.01,
+                "formatado": "R$9,01",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.77,
+                "formatado": "R$5,77",
+                "unidade": "R$"
+              },
+              {
+                "valor": 19.0,
+                "formatado": "19",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 696.2,
+                "formatado": "696,20",
+                "unidade": "numero"
+              },
+              {
+                "valor": 610.93,
+                "formatado": "610,93",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.25,
+                "formatado": "2,25",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 22.91,
+                "formatado": "22,91",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.07,
+                "formatado": "2,07",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.04,
+                "formatado": "5,04",
+                "unidade": "numero"
+              },
+              {
+                "valor": 512.22,
+                "formatado": "512,22",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 21.19,
+                "formatado": "21,19",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.32,
+                "formatado": "2,32",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 102,82M",
+            "metricas": [
+              {
+                "valor": 102.82,
+                "formatado": "R$ 102,82",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.39,
+                "formatado": "0,39%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.0,
+                "formatado": "51",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.86,
+                "formatado": "R$7,86",
+                "unidade": "R$"
+              },
+              {
+                "valor": 6.37,
+                "formatado": "R$6,37",
+                "unidade": "R$"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 196.41,
+                "formatado": "196,41",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.62,
+                "formatado": "1,62",
+                "unidade": "numero"
+              },
+              {
+                "valor": 16.34,
+                "formatado": "16,34",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.35,
+                "formatado": "8,35",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ]
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -38,72%",
+            "metricas": [
+              {
+                "valor": -38.72,
+                "formatado": "-38,72%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 71,02%",
+            "metricas": [
+              {
+                "valor": 71.02,
+                "formatado": "71,02%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 16.14,
+                "formatado": "R$16,14",
+                "unidade": "R$"
+              },
+              {
+                "valor": 11.46,
+                "formatado": "R$11,46",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ]
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2025/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": []
+      }
+    },
+    "2026": {
+      "visaoGeral": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/visaoGeral",
+        "quadros": [
+          {
+            "titulo": "Obrigações junto ao TCE-ES | 2024",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "2024 | 2025",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 4.0,
+                "formatado": "4",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.0,
+                "formatado": "5",
+                "unidade": "numero"
+              },
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Prefeitura Municipal | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Câmara Municipal de Vereadores | Prestação de Contas Anual ainda não é exigível para a competência 2026",
+            "metricas": [
+              {
+                "valor": 202.0,
+                "formatado": "202",
+                "unidade": "numero"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Saúde | 20,36%",
+            "metricas": [
+              {
+                "valor": 20.36,
+                "formatado": "20,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "20,36% | 15%",
+            "metricas": [
+              {
+                "valor": 20.36,
+                "formatado": "20,36%",
+                "unidade": "%"
+              },
+              {
+                "valor": 15.0,
+                "formatado": "15%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Educação | 28,86%",
+            "metricas": [
+              {
+                "valor": 28.86,
+                "formatado": "28,86%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "28,86% | 25%",
+            "metricas": [
+              {
+                "valor": 28.86,
+                "formatado": "28,86%",
+                "unidade": "%"
+              },
+              {
+                "valor": 25.0,
+                "formatado": "25%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Consolidado | 42,80%",
+            "metricas": [
+              {
+                "valor": 42.8,
+                "formatado": "42,80%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "42,80% | 54%",
+            "metricas": [
+              {
+                "valor": 42.8,
+                "formatado": "42,80%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              },
+              {
+                "valor": 57.0,
+                "formatado": "57%",
+                "unidade": "%"
+              },
+              {
+                "valor": 60.0,
+                "formatado": "60%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Executivo | 40,74%",
+            "metricas": [
+              {
+                "valor": 40.74,
+                "formatado": "40,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "40,74% | 48,6%",
+            "metricas": [
+              {
+                "valor": 40.74,
+                "formatado": "40,74%",
+                "unidade": "%"
+              },
+              {
+                "valor": 48.6,
+                "formatado": "48,6%",
+                "unidade": "%"
+              },
+              {
+                "valor": 51.3,
+                "formatado": "51,3%",
+                "unidade": "%"
+              },
+              {
+                "valor": 54.0,
+                "formatado": "54%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Pessoal - Legislativo | 2,05%",
+            "metricas": [
+              {
+                "valor": 2.05,
+                "formatado": "2,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "2,05% | 5,4%",
+            "metricas": [
+              {
+                "valor": 2.05,
+                "formatado": "2,05%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.4,
+                "formatado": "5,4%",
+                "unidade": "%"
+              },
+              {
+                "valor": 5.7,
+                "formatado": "5,7%",
+                "unidade": "%"
+              },
+              {
+                "valor": 6.0,
+                "formatado": "6%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Desp. x receitas correntes | 101,87%",
+            "metricas": [
+              {
+                "valor": 101.87,
+                "formatado": "101,87%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "101,87% | 85%",
+            "metricas": [
+              {
+                "valor": 101.87,
+                "formatado": "101,87%",
+                "unidade": "%"
+              },
+              {
+                "valor": 85.0,
+                "formatado": "85%",
+                "unidade": "%"
+              },
+              {
+                "valor": 95.0,
+                "formatado": "95%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "Dívida Consolidada Líquida | -51,61%",
+            "metricas": [
+              {
+                "valor": -51.61,
+                "formatado": "-51,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          },
+          {
+            "titulo": "-51,61% | 108%",
+            "metricas": [
+              {
+                "valor": -51.61,
+                "formatado": "-51,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/marilandia/visaoGeral_2026.jpg"
+      },
+      "receitas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/gestaoOrcamentaria/receitas",
+        "quadros": [
+          {
+            "titulo": "Receitas Arrecadadas | R$ 114,28M",
+            "metricas": [
+              {
+                "valor": 114.28,
+                "formatado": "R$ 114,28",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.47,
+                "formatado": "0,47%",
+                "unidade": "%"
+              },
+              {
+                "valor": 46.0,
+                "formatado": "46",
+                "unidade": "numero"
+              },
+              {
+                "valor": 8.69,
+                "formatado": "R$8,69",
+                "unidade": "R$"
+              },
+              {
+                "valor": 4.8,
+                "formatado": "R$4,80",
+                "unidade": "R$"
+              },
+              {
+                "valor": 16.0,
+                "formatado": "16",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Receitas próprias do Município em destaque | IPTU",
+            "metricas": [
+              {
+                "valor": 655.35,
+                "formatado": "655,35",
+                "unidade": "numero"
+              },
+              {
+                "valor": 432.97,
+                "formatado": "432,97",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.43,
+                "formatado": "2,43",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências do Estado em destaque | ICMS",
+            "metricas": [
+              {
+                "valor": 18.71,
+                "formatado": "18,71",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.08,
+                "formatado": "2,08",
+                "unidade": "numero"
+              },
+              {
+                "valor": 5.78,
+                "formatado": "5,78",
+                "unidade": "numero"
+              },
+              {
+                "valor": 570.06,
+                "formatado": "570,06",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Transferências da União em destaque | FMP",
+            "metricas": [
+              {
+                "valor": 16.87,
+                "formatado": "16,87",
+                "unidade": "numero"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0,00",
+                "unidade": "numero"
+              },
+              {
+                "valor": 2.61,
+                "formatado": "2,61",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/marilandia/receitas_2026.jpg"
+      },
+      "despesas": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/gestaoOrcamentaria/despesas",
+        "quadros": [
+          {
+            "titulo": "Despesa Liquidada | R$ 94,71M",
+            "metricas": [
+              {
+                "valor": 94.71,
+                "formatado": "R$ 94,71",
+                "unidade": "R$"
+              },
+              {
+                "valor": 0.45,
+                "formatado": "0,45%",
+                "unidade": "%"
+              },
+              {
+                "valor": 47.0,
+                "formatado": "47",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.2,
+                "formatado": "R$7,20",
+                "unidade": "R$"
+              },
+              {
+                "valor": 5.05,
+                "formatado": "R$5,05",
+                "unidade": "R$"
+              },
+              {
+                "valor": 16.0,
+                "formatado": "16",
+                "unidade": "numero"
+              }
+            ]
+          },
+          {
+            "titulo": "Despesas em destaque | Diárias",
+            "metricas": [
+              {
+                "valor": 145.78,
+                "formatado": "145,78",
+                "unidade": "numero"
+              },
+              {
+                "valor": 1.54,
+                "formatado": "1,54",
+                "unidade": "numero"
+              },
+              {
+                "valor": 16.59,
+                "formatado": "16,59",
+                "unidade": "numero"
+              },
+              {
+                "valor": 7.13,
+                "formatado": "7,13",
+                "unidade": "numero"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/marilandia/despesas_2026.jpg"
+      },
+      "dividaConsolidada": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/gestaoFiscal/endividamento",
+        "quadros": [
+          {
+            "titulo": "Limite da LRF | -51,61%",
+            "metricas": [
+              {
+                "valor": -51.61,
+                "formatado": "-51,61%",
+                "unidade": "%"
+              },
+              {
+                "valor": 108.0,
+                "formatado": "108%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              },
+              {
+                "valor": 0.0,
+                "formatado": "0%",
+                "unidade": "%"
+              },
+              {
+                "valor": 120.0,
+                "formatado": "120%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/marilandia/dividaConsolidada_2026.jpg"
+      },
+      "fundeb": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/gestaoFiscal/educacaoFundeb",
+        "quadros": [
+          {
+            "titulo": "Aplicação no Magistério | 69,01%",
+            "metricas": [
+              {
+                "valor": 69.01,
+                "formatado": "69,01%",
+                "unidade": "%"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              },
+              {
+                "valor": 12.26,
+                "formatado": "R$12,26",
+                "unidade": "R$"
+              },
+              {
+                "valor": 8.46,
+                "formatado": "R$8,46",
+                "unidade": "R$"
+              },
+              {
+                "valor": 70.0,
+                "formatado": "70%",
+                "unidade": "%"
+              }
+            ]
+          }
+        ],
+        "print_auditoria": "prints_edicao_impressa/marilandia/fundeb_2026.jpg"
+      },
+      "receitaCorrenteLiquida": {
+        "url_fonte": "https://paineldecontrole.tcees.tc.br/municipio/2026/marilandia/gestaoFiscal/receitaCorrenteLiquida",
+        "quadros": [],
+        "print_auditoria": "prints_edicao_impressa/marilandia/receitaCorrenteLiquida_2026.jpg"
+      }
+    }
+  }
+}
