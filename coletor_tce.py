@@ -195,9 +195,9 @@ async def main():
     elif MODO_EXECUCAO == "historico_completo":
         anos_alvo = list(range(2019, ANO_ATUAL + 1))
         
-        # Divide os 78 municípios em 4 blocos de ~20 cidades + o Estado no Bloco 1
+        # Divide os 78 municípios em 8 blocos equilibrados
         total_mun = len(MUNICIPIOS_ES)
-        tamanho_bloco = total_mun // 4
+        tamanho_bloco = total_mun // 8
         
         mun_selecionados = MUNICIPIOS_ES
         if BLOCO_ID == "1":
@@ -207,7 +207,15 @@ async def main():
         elif BLOCO_ID == "3":
             mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*2:tamanho_bloco*3]
         elif BLOCO_ID == "4":
-            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*3:]
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*3:tamanho_bloco*4]
+        elif BLOCO_ID == "5":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*4:tamanho_bloco*5]
+        elif BLOCO_ID == "6":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*5:tamanho_bloco*6]
+        elif BLOCO_ID == "7":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*6:tamanho_bloco*7]
+        elif BLOCO_ID == "8":
+            mun_selecionados = MUNICIPIOS_ES[tamanho_bloco*7:]
 
         entes_alvo = []
         if BLOCO_ID in ["1", "todos"]:
